@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="HR.My.MySettings.HRMSConnectionString" connectionString="Data Source=MAINSERVER\SQL2012;Initial Catalog=HRMS;User ID=sa;Password=P@ssw0rd"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.HRMSConnectionString1" connectionString="Data Source=MAINSERVER\SQL2012;Initial Catalog=HRMS;User ID=sa;Password=P@ssw0rd"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.HRMSConnectionString2" connectionString="Data Source=MAINSERVER\SQL2012;Initial Catalog=HRMS;Persist Security Info=True;User ID=sa;Password=P@ssw0rd"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup>
+        
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0,Profile=Client"/></startup>
+</configuration>

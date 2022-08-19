@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Email" Class="DataClassesEmailDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Email;Integrated Security=True" SettingsObjectName="HR.My.MySettings" SettingsPropertyName="EmailConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblMailAttachments" Member="TblMailAttachments">
+    <Type Name="TblMailAttachment">
+      <Column Name="AttachmentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AttachmentName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="AttachmentType" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Attachment" Type="System.Byte[]" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MessageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblRfc822Message_TblMailAttachment" Member="TblRfc822Message" ThisKey="MessageID" OtherKey="MessageID" Type="TblRfc822Message" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblSentMailAttachments" Member="TblSentMailAttachments">
+    <Type Name="TblSentMailAttachment">
+      <Column Name="AttachmentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AttachmentName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="AttachmentType" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Attachment" Type="System.Byte[]" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SentMessageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblSentMessage_TblSentMailAttachment" Member="TblSentMessage" ThisKey="SentMessageID" OtherKey="SentMessageID" Type="TblSentMessage" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblSentMessages" Member="TblSentMessages">
+    <Type Name="TblSentMessage">
+      <Column Name="SentMessageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[From]" Member="From" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Subject" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MailDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[To]" Member="To" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bcc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="wbBody" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="tbBody" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="EmailUsername" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TblSentMessage_TblSentMailAttachment" Member="TblSentMailAttachments" ThisKey="SentMessageID" OtherKey="SentMessageID" Type="TblSentMailAttachment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRfc822Message" Member="TblRfc822Messages">
+    <Type Name="TblRfc822Message">
+      <Column Name="MessageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[From]" Member="From" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Subject" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MailDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="[To]" Member="To" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bcc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="wbBody" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="tbBody" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="EmailUsername" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TblRfc822Message_TblMailAttachment" Member="TblMailAttachments" ThisKey="MessageID" OtherKey="MessageID" Type="TblMailAttachment" />
+    </Type>
+  </Table>
+</Database>

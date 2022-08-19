@@ -1,0 +1,1798 @@
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\bin\Debug\HR.exe.config
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmSelectRelativeReferences.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmSelectWifeHusband.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\bin\Debug\HR.exe
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\bin\Debug\HR.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\bin\Debug\HR.xml
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\HR\HR\obj\x86\Debug\HR.UCJobDescriptionList.resources
+\\mainserver\Project\Shared\HR\HR\bin\Debug\HR.exe.config
+C:\Projects\HR\HR\bin\Debug\HR.exe.config
+C:\Projects\HR\HR\bin\Debug\HR.exe.manifest
+C:\Projects\HR\HR\bin\Debug\HR.application
+C:\Projects\HR\HR\bin\Debug\HR.exe
+C:\Projects\HR\HR\bin\Debug\HR.pdb
+C:\Projects\HR\HR\bin\Debug\HR.xml
+C:\Projects\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Projects\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Projects\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Projects\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Projects\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Projects\HR\HR\obj\x86\Debug\HR.application
+C:\Projects\HR\HR\obj\x86\Debug\HR.exe
+C:\Projects\HR\HR\obj\x86\Debug\HR.xml
+C:\Projects\HR\HR\obj\x86\Debug\HR.pdb
+C:\Projects\HR\HR\obj\x86\Debug\HR.vbprojResolveAssemblyReference.cache
+C:\Projects\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Projects\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Projects\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Projects\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\Interop.CALENDARLib.dll
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.ResolveComReference.cache
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailInbox.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewMail.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewTasksV1.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmToDoList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCStickyNote.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCTo_DoItem.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.cache
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.vbprojAssemblyReference.cache
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.exe.config
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.application
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.exe
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.pdb
+C:\Users\user1\Desktop\HR\HR\bin\Debug\HR.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Core.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Excel.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Reports.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Undo.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.AppStylistSupport.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraDataChart.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraSparkline.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCarousel.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinChart.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGauge.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.DocumentExport.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinLiveTileView.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinOfficeNavBar.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSpreadsheet.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabbedMdi.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.ChartView.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RadMap.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RadSpreadsheet.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RichTextEditor.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Scheduler.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.SpellChecker.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\TelerikCommon.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Core.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Excel.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Reports.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Undo.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.AppStylistSupport.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraDataChart.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraSparkline.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCarousel.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinChart.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGauge.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.DocumentExport.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinLiveTileView.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinOfficeNavBar.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSpreadsheet.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabbedMdi.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.ChartView.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RadMap.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RadSpreadsheet.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RadSpreadsheet.dll.config
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.RichTextEditor.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Scheduler.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.SpellChecker.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.application
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.CopyComplete
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGauges.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGeographicMap.v19.2.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Crystal.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGauges.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGeographicMap.v19.2.xml
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailSignIn.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailInbox2.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailMessageViewer.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmSentMail.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmSentMailMessageViewer.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmChangingEmailPassBrowser.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.FrmCreateNewEmailAccountBrowser.resources
+C:\Users\user1\Desktop\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.CrystalDark.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Fluent.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.FluentDark.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Material.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.MaterialPink.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.MaterialTeal.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Office2013Dark.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\user1\Desktop\HR\HR\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.exe.config
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\Interop.CALENDARLib.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.ResolveComReference.cache
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.application
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.exe
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.pdb
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\HR.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Core.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Excel.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Reports.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Undo.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.AppStylistSupport.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraDataChart.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGauges.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGeographicMap.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraSparkline.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCarousel.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinChart.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGauge.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.DocumentExport.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinLiveTileView.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinOfficeNavBar.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSpreadsheet.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabbedMdi.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Core.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Excel.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.Reports.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Undo.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.AppStylistSupport.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraDataChart.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGauges.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraGeographicMap.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.UltraSparkline.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCarousel.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinChart.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGauge.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.DocumentExport.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinLiveTileView.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinOfficeNavBar.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSpreadsheet.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabbedMdi.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmChangingEmailPassBrowser.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCreateNewEmailAccountBrowser.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailInbox.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailInbox2.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailMessageViewer.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMailSignIn.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewMail.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewTasksV1.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmSentMail.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmSentMailMessageViewer.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmToDoList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCStickyNote.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCTo_DoItem.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.application
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.vbprojAssemblyReference.cache
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.CoreCompileInputs.cache
+C:\Users\sandrakhazaal.INTEGRA\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.CopyComplete
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.vbprojAssemblyReference.cache
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.exe.config
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.application
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.exe
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\HR.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.cache
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.vbproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.application
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.vbproj.CopyComplete
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\EMail.NET.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmDockable.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UCHeaderTop.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UcCalendar.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UcMail.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UcNotes.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UcTasks.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmComposeMail.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmMail.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmOtherMail.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmSignInAccount.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.InputTextBox.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.SelForm.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.ShowMessage.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.ShowMessagePOP.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.ShowSetFlags.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmCalendarOfEventsNAppointments.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmOwner.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.frmQuery.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmPanels.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmContacts.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\ja\Infragistics4.Win.UltraWinListView.v19.2.resources.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmGanttTasks.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmGantt.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.dll
+C:\Users\acer\Desktop\HR-20-3\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.xml
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmNotes.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.UserNote.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmNewNote.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmNotesList.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmSalaryCategories.resources
+C:\Users\acer\Desktop\HR-20-3\HR\HR\obj\x86\Debug\HR.FrmEmployeeSalaries2.resources
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.exe.config
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.application
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.exe
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.pdb
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\HR.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\EMail.NET.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.vbprojResolveAssemblyReference.cache
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeSalaries2.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCalendarOfEventsNAppointments.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmOwner.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmQuery.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmSalaryCategories.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmContacts.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanels.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewNote.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmNotes.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmNotesList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UserNote.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmGantt.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmGanttTasks.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCHeaderTop.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmDockable.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UcCalendar.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UcMail.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UcNotes.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UcTasks.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmComposeMail.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMail.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmOtherMail.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmSignInAccount.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.InputTextBox.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.SelForm.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.ShowMessage.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.ShowMessagePOP.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.ShowSetFlags.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.application
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\fatima\Desktop\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.config
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.application
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.exe
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\HR.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\ja\Infragistics4.Win.UltraWinListView.v19.2.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeSalaries2.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendarOfEventsNAppointments.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmOwner.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmQuery.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSalaryCategories.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContacts.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCUnEmployeeInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUnEmployeeList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanels.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewNote.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotes.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotesList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UserNote.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGantt.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGanttTasks.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderTop.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDockable.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcCalendar.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcMail.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcNotes.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcTasks.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmComposeMail.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMail.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmOtherMail.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSignInAccount.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.InputTextBox.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SelForm.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessage.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessagePOP.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowSetFlags.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.application
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.HeaderForm.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Human_Resourse_Management_System.resources
+C:\Users\acer\Desktop\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHomeNav.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.config
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.application
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.pdb
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbprojResolveAssemblyReference.cache
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeSalaries2.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendarOfEventsNAppointments.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmOwner.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmQuery.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSalaryCategories.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContacts.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCUnEmployeeInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUnEmployeeList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.HeaderForm.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Human_Resourse_Management_System.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHomeNav.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanels.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewNote.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotes.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotesList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UserNote.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGantt.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGanttTasks.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotifications.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanel.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmInterface.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanel2.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderTop.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDockable.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcCalendar.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcMail.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcNotes.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcTasks.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmComposeMail.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMail.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmOtherMail.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSignInAccount.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.InputTextBox.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SelForm.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessage.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessagePOP.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowSetFlags.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\fatima\Desktop\New folder\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.application
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.config
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.resx
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.Designer.vb
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Applicant\FrmWorkShop.vb
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.application
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.pdb
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Documents.IO.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Barcode.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.DataVisualization.Shared.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Misc.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.Portable.Core.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.SupportDialogs.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDock.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinEditors.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGanttView.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinGrid.WordWriter.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinListView.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinRadialMenu.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinSchedule.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTabControl.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinToolbars.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinTree.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinCalcManager.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\Infragistics4.Win.UltraWinDataSource.v19.2.xml
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form2.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddAttachment.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddress.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantMedicalIssue.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantsForCurrentJob.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantSkills.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssignAsEmployee.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEducationHistory.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeSalaries2.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExperienceHistory.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmFamilyMember.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLanguages.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRelativeReferences.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequiredJob.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeLectures.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWifeHusbandInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmWorkShop.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCSkills.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendarOfEventsNAppointments.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmOwner.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmQuery.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmBlood.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCategoryList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCertificateList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContractType.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCurrencyList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentCategory.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentType.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonths.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSalaryCategories.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmContacts.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form1.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FormPanel3.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCUnEmployeeInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUnEmployeeList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.HeaderForm.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Human_Resourse_Management_System.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHomeNav.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form6.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPanels.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form4.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form5.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewNote.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotes.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNotesList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UserNote.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Form3.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGantt.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmGanttTasks.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmNewTasksV2.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCalendar.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobDescription.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPCSettings.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStickyNote.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCApplicantInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCEmployeeInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCRetiredInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUCTraineeInfo.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCButton.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeader2.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderButton.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeaderTop.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCMyButton.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCPanelOfRibon.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCRibon.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDockable.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcCalendar.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcMail.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcNotes.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UcTasks.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmComposeMail.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMail.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmOtherMail.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSignInAccount.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.InputTextBox.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SelForm.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessage.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowMessagePOP.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.ShowSetFlags.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAveragePAPerJobPerTask.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeePA.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAForEmployee.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmShowAttachment.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndexReport.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeListReport.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineeListReport.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resource1.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddClassification.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDegree.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmClassificationDegreeTree.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmEmployeeSalaryList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMonthSalary.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearCalendarForSalaries.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.SplashScreen1.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmListofPAforTrainee.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPAforTrainee.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTraineePerformanceAppraisal.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmJobCategory.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLecturesList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMedicalIssuesList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishmentType.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmPositionList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSkillsList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmStatusList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmTask.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmType.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAddDepartment.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantIndex.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmAssigndDepsToJob.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmCompanyProfil.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmDepartmentTree.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree2.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCInterfaceClock.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.frmAfterAssignYearlyVacToEmployee.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeHolidays.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmEmployeeVacation.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacation.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmExecuteDaysFromVacationList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidays.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHolidaysExecuted.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermApproval.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmMotivationPunishment.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmReqHoursForJob.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmRequirement.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmSettings.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCDepartmentTree.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCEmployeeList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLeavePermission.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmLogin.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmUserList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVacations.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmVactionsHolidaysDashBoard.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmYearlyVacations.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmApplicantList.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FrmHomePage.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.Resources.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.vbproj.GenerateResource.Cache
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.licenses
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.cache
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\RdlCompile.compiled
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe.manifest
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.application
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FormNewHome.resources
+C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeader.resources

@@ -1,0 +1,3267 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HR
+</name>
+</assembly>
+<members>
+<member name="T:HR.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._0Percent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._100Percent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._25Percent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._44">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._444">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._50Percent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._5877__Converted_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._75Percent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._category">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._category1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._next">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._select">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.add_group8888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.add1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.add11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddEmp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddEmployee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddHolidays8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddIcon30px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ADDNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddOwner">
+<summary>
+  Looks up a localized string similar to Add new Owner.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.addred3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AdduSERiCON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddUserIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddUserIconIcon11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AddVacations8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AnalyzeFunctionalRequirementTask">
+<summary>
+  Looks up a localized string similar to Analyze Functional Requirements.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AnalyzePerformaceRequirementTask">
+<summary>
+  Looks up a localized string similar to Analyze Performance Requirements.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.angle_arrow_down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.angle_arrow_down1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.angle_arrow_down2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.appearance22_Image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.appearance22_Image1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AppIndexNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.APPLICANTIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ApplicantIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ApplicantListIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ApplicantNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AppointmentUpdateError">
+<summary>
+  Looks up a localized string similar to Error updating Appointments table:.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AssignNEW2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AssignVacNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.audit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.audit1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.audit2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.audit3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.audit4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.AverageIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.back_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.back1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BackIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BlackPostedIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BlackScheme">
+<summary>
+  Looks up a localized string similar to Black Scheme.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.bling">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.blogging888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BloodIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.bloodIcon122">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BloodNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BloodTypesNEWNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BlueScheme">
+<summary>
+  Looks up a localized string similar to BlueScheme.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.bold">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BrowseLocation">
+<summary>
+  Looks up a localized string similar to Browse for a Location.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.BudgetTaskName">
+<summary>
+  Looks up a localized string similar to Budget Analysis.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.bullet_list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.button_sparkle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Calendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.calendar_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Calendar48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CancelIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CancelIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Cat2223">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Category_DepartmentsIcon11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Category_TaskIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CATEGORYDEPARTMENTIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CATEGORYTASKiCON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CertificateIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CertificateIcon145">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CertificateNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.checked899">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ChooseColorScheme">
+<summary>
+  Looks up a localized string similar to &lt;p style=&apos;text-smoothing-mode:AntiAlias&apos;&gt;Choose a color scheme for ultraToolbarsManager&lt;/p&gt;.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ClassDegreeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Clock500px2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.close1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CLOSENEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CodeDevelopmentTaskName">
+<summary>
+  Looks up a localized string similar to Code Development.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ColorScheme">
+<summary>
+  Looks up a localized string similar to Color Scheme: By default set to Blue..
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CompanyprofileIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.companyProfileIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CompanyProfileNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.contractIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.contractTypeIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ContractTypeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Copy">
+<summary>
+  Looks up a localized string similar to Copy.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CreateDesignDocumentTask">
+<summary>
+  Looks up a localized string similar to Create Design Document.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CurrencyIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Currencyicon22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CurrencyNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Customers48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DashboardNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DeleteIcon5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DeleteIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DeleteIcon71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DELETENEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DELETENEW1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DELETENEW2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DEPARTMENTIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Departments22551">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DepartmentsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DEPARTMENTTYPEiCON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DepartmentTypeIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DepCategoryNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DepTypeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DesignDocumentTask">
+<summary>
+  Looks up a localized string similar to Design Document.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DetailsIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.diamond_sparkle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Document1">
+<summary>
+  Looks up a localized string similar to Document 1.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Document2">
+<summary>
+  Looks up a localized string similar to Document 2.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Document3">
+<summary>
+  Looks up a localized string similar to Document 3 .
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.dot">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.edit_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.edit_tools">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.edite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.edite1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EditEmployee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EditEmployee1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EditIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EditIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EDITNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.edred3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EMPLOYEEeIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EMPLOYEEIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeeIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeeList">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.employeeLISTIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeeListNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeePAIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeePAIcon177">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.EmployeePANEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Employees48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.envelope">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ErrorTitle">
+<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Excel">
+<summary>
+  Looks up a localized string similar to Excel.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ExecuteIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.exit1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ExitIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.extra1088">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.extra11app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.extra15444">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.extra18jobbb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.extra7557">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.eye">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.FeatureDevelopmentTaskName">
+<summary>
+  Looks up a localized string similar to Develop features.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.filter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.first">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.first1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.first2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.FirstIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.FixBugsTaskName">
+<summary>
+  Looks up a localized string similar to Bug fixing.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.flag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folder_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folder1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folder55">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folderdel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.folderdel1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Format">
+<summary>
+  Looks up a localized string similar to Format.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.GatherCustomerRequirementTask">
+<summary>
+  Looks up a localized string similar to Gather Customer Requirements.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.GoNextIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.GoPrevIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.GoReportIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.health_individual">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HolidayIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HolidayIcon11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HOLIDAYS1Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HOLIDAYS2Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HolidaysNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.hour">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HoursForJObNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HR_20logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icon_01_PersonalAccident_zps7847e25a">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icon_image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_add_file_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_add_file_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_add_list_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_add_list_241">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_alarm_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_center_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_center_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_left_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_left_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_left_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_right_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_align_right_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_attach_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_attach_201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_attach_24_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_attach_24_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_attach_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_back_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_back_481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bold_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bold_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bold_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bold_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bold_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_bulleted_list_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_calendar_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_calendar_plus_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_clear_symbol_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_color_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_composing_mail_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_composing_mail_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_copybook_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_create_document_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_cursor_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_cursor_30_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_cursor_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_cursor_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_delete_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_down_arrow_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_down_arrow_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_download_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_download_481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_download_mail_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_download_mail_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_envelope_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_expand_arrow_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_expand_arrow_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_export_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_eye_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_full_image_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_full_image_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_gmail_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_gmail_login_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_happy_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_happy_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_hide_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_italic_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_italic_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_kackstiftaufpapier_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_less_than_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_less_than_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_link_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_link_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_list_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_mail_account_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_menu_vertical_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_menu_vertical_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_menu_vertical_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_minus_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_minus_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_more_than_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_more_than_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_numbered_list_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_numbered_list_181">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_numbered_list_182">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_numbered_list_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_pencil_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_planner_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_plus_math_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_print_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_redo_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_redo_151">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_redo_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_redo_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_redo_261">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_refresh_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_refresh_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_refresh_mail_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_refresh_mail_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_save_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_save_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_save_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_secured_letter_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_settings_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_strikethrough_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_strikethrough_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_strikethrough_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_strikethrough_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_subtract_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_text_color_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_text_color_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_text_color_26_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_text_color_261">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_thick_arrow_pointing_up_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_trash_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_trash_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_trash_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_trash_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_underline_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_underline_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_undo_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_undo_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_undo_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_undo_261">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_up_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icons8_upload_mail_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.if_upload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.if_upload___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Indent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JOBcATiCON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobCatNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JOBDEPARTMENTiCON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JOBDESCICON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobDescription">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobDescription2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobDesNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobListIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobListIcon11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.JobListNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.kor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.kor2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LastIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LeaveApprovalNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LEAVEiCON11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LeaveNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.lecture222">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LecturesIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LecturesNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.left_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.left_arrow___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LISTIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ListOFEmployees">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LockBlack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Locked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LockedIcon8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LockIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.LockIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.log_out1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.logout__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.magnifier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.magnifier1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Mail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.mail_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Mail_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Mail1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Mail2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.man_user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.man_user__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.man_user__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.many_cells_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.many_cells_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.medicalissueic1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MedicalIssueIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MedicalIssueNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MeetEngTaskName">
+<summary>
+  Looks up a localized string similar to Meeting with Engineer.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.menuvertical_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MessageBox_Error">
+<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MileStone">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.minute">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MockUpTaskName">
+<summary>
+  Looks up a localized string similar to Mock up for Installer.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Model">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Model1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ModifyOwner">
+<summary>
+  Looks up a localized string similar to Modify owner &apos;{0}&apos;.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ModifyOwnerMenu">
+<summary>
+  Looks up a localized string similar to Modify Owner.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ModifyProperties">
+<summary>
+  Looks up a localized string similar to Modify &apos;{0}&apos; properties.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MonthsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.more">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MotivationIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MotivationType1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MotivationTypeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MotivVSPunNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.new1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.New2">
+<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NEW9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NEWBL9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NewIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NEWPUR8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NewTaskName">
+<summary>
+  Looks up a localized string similar to &lt;Type Task Name Here&gt;.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.next_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.NextIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.note_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Notes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.notification">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Office2010Themes">
+<summary>
+  Looks up a localized string similar to Office2010 Color Scheme.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.one_cell_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.one_cell_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.OpenedMail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Orders48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.other_sparkle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Outdent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.OwnersUpdateError">
+<summary>
+  Looks up a localized string similar to Error updating Owners table:.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PAIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PAIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.paid_time_off_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PAPerTaskNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PCsettingsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PDF">
+<summary>
+  Looks up a localized string similar to PDF.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.pen_paper_2_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.pen_paper_2_5121">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.pin_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Pin_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.plus_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.position">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.POSITIONIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PositionNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Post">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.post1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.post11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.post12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.post13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.post14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PostIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PostIcon8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Powerpoint">
+<summary>
+  Looks up a localized string similar to Powerpoint.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PreviousTemplate8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.PrintIcon8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ProofReadTaskName">
+<summary>
+  Looks up a localized string similar to Proofread.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.QualityAssuranceTaskName">
+<summary>
+  Looks up a localized string similar to Quality Assurance.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.QueryAllAppointments">
+<summary>
+  Looks up a localized string similar to Query - All Appointments.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.QueryAllOwners">
+<summary>
+  Looks up a localized string similar to Query - All Owners.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.QueryAppointmentsByOwner">
+<summary>
+  Looks up a localized string similar to Query - Appointments By Owner.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.question_mark_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Recent">
+<summary>
+  Looks up a localized string similar to Recent.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RecentlyUsed">
+<summary>
+  Looks up a localized string similar to Recently Used.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RedesignWebsiteTaskName">
+<summary>
+  Looks up a localized string similar to Redesign Website.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RegressionTestTaskName">
+<summary>
+  Looks up a localized string similar to Regression Testing.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RemoveOwnerMenu">
+<summary>
+  Looks up a localized string similar to Remove Owner.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RemoveOwnerMessage">
+<summary>
+  Looks up a localized string similar to Are you sure you want to remove the owner &apos;{0}&apos;?.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RemoveOwnerTitle">
+<summary>
+  Looks up a localized string similar to Remove Owner.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.REQUIREDHOURSIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RequiredHoursIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RequiredHoursIcon1888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RequirementsTaskName">
+<summary>
+  Looks up a localized string similar to Requirements.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RequirementTypeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RetiredEmpIcon3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RetiredEmpList3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RetiredEmpNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.RetiredListNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ReviewDesignDocumentTask">
+<summary>
+  Looks up a localized string similar to Review Design Document.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.right_arrow__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.row_left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.row_right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.rubbish_bin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SalariesHistoryNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Salarycategory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.save1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.save2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SAVE4NEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SAVE4NEW1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveChangesMessage">
+<summary>
+  Looks up a localized string similar to You have made changes to data that have not been committed to the database. Save changes?.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveChangesTitle">
+<summary>
+  Looks up a localized string similar to Data changed.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveIcon71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveIcon72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveIcon73">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SAVENEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SAVENEW2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SAVENEW3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SaveSend">
+<summary>
+  Looks up a localized string similar to Save and Send.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SavetoFolder">
+<summary>
+  Looks up a localized string similar to Save to Folder.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SearchIcon7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.second">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.seen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.seen2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SelectIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SelectIcon8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Send">
+<summary>
+  Looks up a localized string similar to Send.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.settings88">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.settings888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.settings88899">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.settings8899">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Settingsicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SettingsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Share">
+<summary>
+  Looks up a localized string similar to Share.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ShowIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SilverScheme">
+<summary>
+  Looks up a localized string similar to Silver Scheme.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.skills">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SkillsIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SkillsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.sort_down_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.sort_down_8_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.sort_right_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.sort_right_8_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.SpecReviewTaskName">
+<summary>
+  Looks up a localized string similar to Specification Review.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.st1_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.st2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.status">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.StatusNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.StickyNoteTheme">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.strikethrough">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Task">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.task_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TaskCategoryNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TaskDialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TaskDialogNotes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TaskIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TaskNEWW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Tasks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TeamTaskName">
+<summary>
+  Looks up a localized string similar to Team Allocation.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TestGridTaskName">
+<summary>
+  Looks up a localized string similar to Test Grid.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TestSamplesTaskName">
+<summary>
+  Looks up a localized string similar to Test Samples.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.tr4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Trainee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Trainee_PA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TRAINEEIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TraineeList">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TraineeListNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TraineeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TraineePA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.TRAINEEPAIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.trash_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ui">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UltraListView_File_Folder">
+<summary>
+  Looks up a localized string similar to File Folder.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.underline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UnEmployeeListNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UnEmployeeNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UnitTestTaskName">
+<summary>
+  Looks up a localized string similar to Write Unit tests.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.unlock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UnopenedMail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.up_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.upload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.UsersNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Vacation3888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VacationHolidaysNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VACATIONIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VACATIONIcon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VacationIcon111">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Vacationicon12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VacationsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ValidateAppointmentMessage">
+<summary>
+  Looks up a localized string similar to Appointment data exceeds size of the &apos;AllProperties&apos; field..
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ViewIcon4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.VisualDesignTaskName">
+<summary>
+  Looks up a localized string similar to Visual Design Group.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Word">
+<summary>
+  Looks up a localized string similar to Word.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.x">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.x1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.YearlyCalendarNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.YearlyVacationsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.YearlyVacationsNEW2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.YearsNEW">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:HR.My.Resources.Resource1">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resource1.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resource1.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblMailAttachmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblRfc822MessageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblMailAttachmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblRfc822MessageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblMailAttachmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.EmailDataSet.TblRfc822MessageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.EmailDataSetTableAdapters.TblMailAttachmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.EmailDataSetTableAdapters.TblRfc822MessageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.EmailDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HR.EmailDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HR.EmailDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.EmailDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HR.EmailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.EmailDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HR.EmailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HR.EmailDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HR.EmailDataSetTableAdapters.TableAdapterManager.UpdateAll(HR.EmailDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HR.EmailDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HR.EmailDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:HR.DataSetNotes">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HR.DataSetNotes.tblNotesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.DataSetNotes.tblNotesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.DataSetNotes.tblNotesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.DataSetNotesTableAdapters.tblNotesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.DataSetNotesTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HR.DataSetNotesTableAdapters.TableAdapterManager.UpdateUpdatedRows(HR.DataSetNotes,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.DataSetNotesTableAdapters.TableAdapterManager.UpdateInsertedRows(HR.DataSetNotes,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.DataSetNotesTableAdapters.TableAdapterManager.UpdateDeletedRows(HR.DataSetNotes,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HR.DataSetNotesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HR.DataSetNotesTableAdapters.TableAdapterManager.UpdateAll(HR.DataSetNotes)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HR.DataSetNotesTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HR.DataSetNotesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.TasksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.dbProjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.TasksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.dbProjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.TasksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasks.dbProjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasksTableAdapters.TasksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasksTableAdapters.dbProjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasksTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.UpdateUpdatedRows(HR.DataSetGanttTasks,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.UpdateInsertedRows(HR.DataSetGanttTasks,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.UpdateDeletedRows(HR.DataSetGanttTasks,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.UpdateAll(HR.DataSetGanttTasks)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HR.DataSetGanttTasksTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMailAttachmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMessagesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMailAttachmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMessagesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMailAttachmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSet.TblSentMessagesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSetTableAdapters.TblSentMailAttachmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSetTableAdapters.TblSentMessagesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HR.SentEmailDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HR.SentEmailDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.SentEmailDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HR.SentEmailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.SentEmailDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HR.SentEmailDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HR.SentEmailDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HR.SentEmailDataSetTableAdapters.TableAdapterManager.UpdateAll(HR.SentEmailDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HR.SentEmailDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:HR.TaskDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbTasksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbProjectsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbTasksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbProjectsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbTasksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.TaskDataSet.dbProjectsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:HR.TaskDataSetTableAdapters.dbTasksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.TaskDataSetTableAdapters.dbProjectsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:HR.TaskDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:HR.TaskDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(HR.TaskDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.TaskDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(HR.TaskDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:HR.TaskDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(HR.TaskDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:HR.TaskDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:HR.TaskDataSetTableAdapters.TableAdapterManager.UpdateAll(HR.TaskDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:HR.TaskDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:HR.TaskDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:HR.UCEmployeeList.refreshfrm">
+ <summary>
+ 
+ </summary>
+</member>
+</members>
+</doc>

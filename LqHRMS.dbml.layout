@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 31.375, 45" name="LqHR">
+  <DataContextMoniker Name="/LqHRDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6cea6602-8a63-4937-89a4-5bb9e10d3f38" isExpanded="false" absoluteBounds="6.25, 11.125, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblAddress" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3fb0db0-9ff0-4c4d-9137-42fcee13a321" absoluteBounds="6.265, 11.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="88134d67-e174-4ef1-8bcc-f010a2016208" isExpanded="false" absoluteBounds="6.25, 5.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblApplicantMedicalIssue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb7e9501-f6e1-4808-b5f5-53857a725bc5" absoluteBounds="6.265, 6.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b599a02-c6c6-44ce-935b-5a3ffb60a8be" isExpanded="false" absoluteBounds="5.625, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblApplicantSkill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b3e17c6-4ccc-47e2-9025-b25de34d490f" absoluteBounds="5.64, 3.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d54ef2e-731a-4e31-9e69-d0fcf876a9e4" isExpanded="false" absoluteBounds="6.25, 8.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblAttachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="476f82e0-4d43-4844-8c0b-95c0702f419c" absoluteBounds="6.265, 8.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="043ac492-c661-49c5-bb6f-66b5bda86382" isExpanded="false" absoluteBounds="0.75, 9.875, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblBlood" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15a1db18-360f-45d1-b814-f16b74e48b55" absoluteBounds="0.765, 10.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c480a656-03d5-4bd5-9f7b-848c8874669d" isExpanded="false" absoluteBounds="3.75, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc4505ac-b99f-40bb-a778-10b402cffcfd" absoluteBounds="3.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e58f284-571e-4b24-9b8b-11b75ce476fa" isExpanded="false" absoluteBounds="6.5, 14.875, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblCertificate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ff16ff0-8de1-4a99-bab9-6e8006570513" absoluteBounds="6.515, 15.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7111b02b-9d14-4e03-9772-1fe6a31a6a8a" isExpanded="false" absoluteBounds="0.625, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblContractType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7aba2d5-9363-4f81-b6f9-59c8e647f657" absoluteBounds="0.64, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3734c877-b8d2-4f67-b57c-58bb28f07648" isExpanded="false" absoluteBounds="0.75, 5.75, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblCurrency" />
+      <nestedChildShapes>
+        <elementListCompartment Id="965a2066-ad52-4024-af51-25e600f78958" absoluteBounds="0.765, 6.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cce8e637-a02b-4c8e-992b-af7396ecd672" isExpanded="false" absoluteBounds="11.5, 1, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f60b6c0e-abc5-48b6-a092-d7327ed024a6" absoluteBounds="11.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ab21a3ba-852b-4ffa-b624-d422ec5fb25e" isExpanded="false" absoluteBounds="8.875, 2, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblDepartmentCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21e53462-ee1a-4157-b949-6b3b653aa42d" absoluteBounds="8.89, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96e544f7-e4af-4468-a63c-5d59a31d52ef" isExpanded="false" absoluteBounds="8.75, 3, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblDepartmentForSchedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cba306e1-abd9-4437-8bd4-53821d21713c" absoluteBounds="8.765, 3.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c7ba278-6ade-4426-a7b3-0e814c2a0d4e" isExpanded="false" absoluteBounds="8.75, 22.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblDepartmentType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4f4ddc1-dd76-4f8a-a3fb-ca57f6284959" absoluteBounds="8.765, 22.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7a731364-a9f0-4388-b630-cb84eed07452" isExpanded="false" absoluteBounds="9.25, 9.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblEducation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56f6b22a-3aaf-4f76-8842-987e8e91e60b" absoluteBounds="9.265, 9.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.1841923076923 : 1); (12.1841923076923 : 0.75); (12.8308461538462 : 0.75); (12.8308461538462 : 1)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblDepartment" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.875 : 2); (11.1874405402564 : 1.72505232457433 : JumpStart); (11.3125594597436 : 1.61494767542566 : JumpEnd); (11.5 : 1.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartmentCategory/TblDepartmentCategory_TblDepartment" />
+      <nodes>
+        <classShapeMoniker Id="ab21a3ba-852b-4ffa-b624-d422ec5fb25e" />
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.75 : 22.25); (9.75 : 13.2); (11.4166666666667 : 13.2 : JumpStart); (11.5833333333333 : 13.2 : JumpEnd); (11.625 : 13.2); (11.625 : 6.95); (11.3333333333333 : 6.95 : JumpStart); (11.1666666666667 : 6.95 : JumpEnd); (11.125 : 6.95); (11.125 : 1.225); (11.5 : 1.225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartmentType/TblDepartmentType_TblDepartment" />
+      <nodes>
+        <classShapeMoniker Id="3c7ba278-6ade-4426-a7b3-0e814c2a0d4e" />
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.40625 : 14.875); (8.40625 : 9.475); (8.41666666666667 : 9.475 : JumpStart); (8.95833333333333 : 9.475 : JumpEnd); (9.25 : 9.475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCertificate/TblCertificate_TblEducation" />
+      <nodes>
+        <classShapeMoniker Id="2e58f284-571e-4b24-9b8b-11b75ce476fa" />
+        <classShapeMoniker Id="7a731364-a9f0-4388-b630-cb84eed07452" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f7ea6083-562f-4bc5-bc33-0650ec02427b" isExpanded="false" absoluteBounds="9.25, 12.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblExperienceHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="63f945d3-7339-4f9f-9c5d-805eead6fa70" absoluteBounds="9.265, 12.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c55c7451-90ee-4919-baf6-973054c143a6" isExpanded="false" absoluteBounds="11.5, 5.75, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblJobCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a84bcec5-117a-4644-95b3-ccb571b1e340" absoluteBounds="11.515, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2805445e-d2b7-4a0d-ac06-da3720c51680" isExpanded="false" absoluteBounds="17.125, 5.375, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblJobRequirement" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d7b26877-c71d-411e-b3d0-1e93428ea1f6" absoluteBounds="17.14, 5.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ecca179-017b-453c-8cb8-4723cdfcd0f2" absoluteBounds="17.25, 2.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/LqHRDataContext/TblJobsPerDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27f0c9ec-b547-4c77-b3fa-35153ff63ad2" absoluteBounds="17.265, 2.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2340f0e-b211-4ba9-a8a0-523198fd7c94" isExpanded="false" absoluteBounds="17, 9, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblJobTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3123a042-7ba6-4884-9ad2-73e21afa532f" absoluteBounds="17.015, 9.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.9468765); (3.125 : 5.9468765); (3.125 : 6); (3.1875 : 6); (3.1875 : 9); (8.875 : 9); (8.875 : 12.125); (10.25 : 12.125); (10.25 : 12.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCurrency/TblCurrency_TblExperienceHistory" />
+      <nodes>
+        <classShapeMoniker Id="3734c877-b8d2-4f67-b57c-58bb28f07648" />
+        <classShapeMoniker Id="f7ea6083-562f-4bc5-bc33-0650ec02427b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.531252 : 1.45); (12.531252 : 3.06814697265625); (17.25 : 3.06814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblJobsPerDepartment" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="8ecca179-017b-453c-8cb8-4723cdfcd0f2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3385a949-3054-4168-a8af-b2137f2f484a" isExpanded="false" absoluteBounds="6.25, 29.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblLanguage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb1b04ba-c461-4f53-8329-bcef3ec05299" absoluteBounds="6.265, 30.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="41fa4eb2-1667-4c14-b60f-2296fbce76a9" isExpanded="false" absoluteBounds="0.75, 7.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblMedicalIssue" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce0ad726-603a-4316-a64a-7d7a59341aa1" absoluteBounds="0.76500000000000012, 8.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a6a795f6-90c1-4eac-855c-42d7d4e9f3c8" absoluteBounds="15, 26.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LqHRDataContext/TblMotivationPunishment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a01a0b3-cf4b-4216-8924-f53bc7434c39" absoluteBounds="15.015, 26.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8cecd74e-eb6a-4fff-bb83-9d3ee76d41e1" isExpanded="false" absoluteBounds="12.25, 27.75, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblMotivationPunishmentType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97e028cb-b3d2-4584-af97-b9e184286ab1" absoluteBounds="12.265, 28.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="66a53b4b-2e5f-4343-ac49-552db907637a" isExpanded="false" absoluteBounds="6.625, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblPosition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2802c7b7-f17f-4887-b0ec-2856463a9540" absoluteBounds="6.64, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7a404f9-59d6-4ede-a61a-2bae98393db1" isExpanded="false" absoluteBounds="18, 18.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblRelativeReference" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ce68f88-1503-4064-a3eb-13ad25b79aa8" absoluteBounds="18.015, 18.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a42a209e-f823-4114-af6a-60402b459fd4" absoluteBounds="11.5, 24.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/LqHRDataContext/TblRequiredHoursForJob" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2cfa0a56-be7d-47bb-b1e8-ed2d1a1ef5ae" absoluteBounds="11.515, 25.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d514a76-11b1-4265-854b-e5140dad554f" isExpanded="false" absoluteBounds="14.25, 8, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblRequiredJob" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15f13942-ddfc-4eea-896d-94ab67a8e19c" absoluteBounds="14.265, 8.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="baf72151-8157-4883-b53e-0314bd100b1a" isExpanded="false" absoluteBounds="13.625, 29, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblRequirement" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad8d265c-a7f0-496a-a47c-bda5f6494812" absoluteBounds="13.64, 29.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ddef6637-bfe4-4d97-b0c4-14ef28002aa2" isExpanded="false" absoluteBounds="3.5, 5.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblSkill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d574b68-403e-4ea4-ae09-7fc00e4ac2d0" absoluteBounds="3.515, 6.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="150fbbf8-397f-4389-8e1b-d84a10c40094" isExpanded="false" absoluteBounds="0.75, 14, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9d18baa-2911-41c1-a348-b10e9322ba92" absoluteBounds="0.765, 14.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="021b0d0d-1a31-4e4b-845b-3c3ee1fad81c" isExpanded="false" absoluteBounds="1, 17, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3604402d-6962-4da3-8b06-7d05eaa2858e" absoluteBounds="1.0150000000000001, 17.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e551409f-5998-46c3-8bd1-973d4abc8607" isExpanded="false" absoluteBounds="11.625, 29.875, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4cd6b4b5-d1ef-45ea-bacc-3cd73f9a03c0" absoluteBounds="11.64, 30.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33bcbdeb-8d17-408d-b2a3-cef32b140a11" isExpanded="false" absoluteBounds="9, 39, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3e0566e-45fc-4bfe-85ae-bbe9aa77b8ff" absoluteBounds="9.015, 39.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7250bab-95e9-4939-a434-34c6c5c7fef3" isExpanded="false" absoluteBounds="20, 14.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblWifeHusband" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6b6b223-e35f-47b1-80ce-09dba459d144" absoluteBounds="20.015, 14.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e28a441-e83d-411f-b223-6c8c64e6390c" isExpanded="false" absoluteBounds="6.25, 32.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblWorkShop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8934840-8ef0-4e85-830e-cb119f0b4838" absoluteBounds="6.265, 32.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.85); (3.07291666666667 : 7.85 : JumpStart); (3.47395833333333 : 7.85 : JumpEnd); (4.66666666666667 : 7.85 : JumpStart); (4.83333333333333 : 7.85 : JumpEnd); (6.01041666666667 : 7.85 : JumpStart); (6.17708333333333 : 7.85 : JumpEnd); (7.25 : 7.85); (7.25 : 6.075)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblMedicalIssue/TblMedicalIssue_TblApplicantMedicalIssue" />
+      <nodes>
+        <classShapeMoniker Id="41fa4eb2-1667-4c14-b60f-2296fbce76a9" />
+        <classShapeMoniker Id="88134d67-e174-4ef1-8bcc-f010a2016208" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 27.975); (14.5416666666667 : 27.975 : JumpStart); (14.7083333333333 : 27.975 : JumpEnd); (15 : 27.975)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblMotivationPunishmentType/TblMotivationPunishmentType_TblMotivationPunishment" />
+      <nodes>
+        <classShapeMoniker Id="8cecd74e-eb6a-4fff-bb83-9d3ee76d41e1" />
+        <classShapeMoniker Id="a6a795f6-90c1-4eac-855c-42d7d4e9f3c8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 2.95); (8.5 : 12.7968765); (8.63541666666667 : 12.7968765 : JumpStart); (8.80208333333333 : 12.7968765 : JumpEnd); (9.25 : 12.7968765)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblPosition/TblPosition_TblExperienceHistory" />
+      <nodes>
+        <classShapeMoniker Id="66a53b4b-2e5f-4343-ac49-552db907637a" />
+        <classShapeMoniker Id="f7ea6083-562f-4bc5-bc33-0650ec02427b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.0999995); (3.10416666666667 : 6.0999995 : JumpStart); (3.27083333333333 : 6.0999995 : JumpEnd); (3.3125 : 6.0999995); (3.3125 : 6); (3.4375 : 6); (3.4375 : 6.45); (8.41666666666667 : 6.45 : JumpStart); (8.58333333333333 : 6.45 : JumpEnd); (8.63541666666667 : 6.45 : JumpStart); (8.95833333333333 : 6.45 : JumpEnd); (11.1666666666667 : 6.45 : JumpStart); (11.4583333333333 : 6.45 : JumpEnd); (15.25 : 6.45); (15.25 : 8)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCurrency/TblCurrency_TblRequiredJob" />
+      <nodes>
+        <classShapeMoniker Id="3734c877-b8d2-4f67-b57c-58bb28f07648" />
+        <classShapeMoniker Id="8d514a76-11b1-4265-854b-e5140dad554f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5 : 1.225); (15.25 : 1.225); (15.25 : 8)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblRequiredJob" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="8d514a76-11b1-4265-854b-e5140dad554f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.625 : 29); (14.625 : 8.575); (16.5 : 8.575); (16.5 : 5.6); (17.125 : 5.6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblRequirement/TblRequirement_TblJobRequirement" />
+      <nodes>
+        <classShapeMoniker Id="baf72151-8157-4883-b53e-0314bd100b1a" />
+        <classShapeMoniker Id="2805445e-d2b7-4a0d-ac06-da3720c51680" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 15.2474519856771); (8.63541666666667 : 15.2474519856771 : JumpStart); (8.80208333333333 : 15.2474519856771 : JumpEnd); (11.4166666666667 : 15.2474519856771 : JumpStart); (11.5833333333333 : 15.2474519856771 : JumpEnd); (11.9166666666667 : 15.2474519856771 : JumpStart); (12.0833333333333 : 15.2474519856771 : JumpEnd); (13.1666666666667 : 15.2474519856771 : JumpStart); (13.3333333333333 : 15.2474519856771 : JumpEnd); (14.4374975 : 15.2474519856771); (14.4374975 : 29)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCertificate/TblCertificate_TblRequirement" />
+      <nodes>
+        <classShapeMoniker Id="2e58f284-571e-4b24-9b8b-11b75ce476fa" />
+        <classShapeMoniker Id="baf72151-8157-4883-b53e-0314bd100b1a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.85); (6 : 5.85); (6 : 5.60740397135417); (6.01041666666667 : 5.60740397135417 : JumpStart); (6.17708333333333 : 5.60740397135417 : JumpEnd); (6.5 : 5.60740397135417); (6.5 : 5.375); (6.9687495 : 5.375); (6.9687495 : 3.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblSkill/TblSkill_TblApplicantSkill" />
+      <nodes>
+        <classShapeMoniker Id="ddef6637-bfe4-4d97-b0c4-14ef28002aa2" />
+        <classShapeMoniker Id="4b599a02-c6c6-44ce-935b-5a3ffb60a8be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 17.225); (4.21353916666667 : 17.225 : JumpStart); (4.38020583333333 : 17.225 : JumpEnd); (4.51822791666667 : 17.225 : JumpStart); (4.68489458333333 : 17.225 : JumpEnd); (5.05143197916667 : 17.225 : JumpStart); (5.33821848958333 : 17.225 : JumpEnd); (8.63541666666667 : 17.225 : JumpStart); (8.80208333333333 : 17.225 : JumpEnd); (11.4166666666667 : 17.225 : JumpStart); (11.5833333333333 : 17.225 : JumpEnd); (11.9166666666667 : 17.225 : JumpStart); (12.0833333333333 : 17.225 : JumpEnd); (14.5416666666667 : 17.225 : JumpStart); (14.7083333333333 : 17.225 : JumpEnd); (18.5625 : 17.225); (18.5625 : 9.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblTask/TblTask_TblJobTask" />
+      <nodes>
+        <classShapeMoniker Id="021b0d0d-1a31-4e4b-845b-3c3ee1fad81c" />
+        <classShapeMoniker Id="a2340f0e-b211-4ba9-a8a0-523198fd7c94" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 1.575); (4.75 : 1.6875); (3 : 1.6875); (3 : 5.5625); (3.01041666666667 : 5.5625 : JumpStart); (3.17708333333333 : 5.5625 : JumpEnd); (3.22916666666667 : 5.5625 : JumpStart); (3.39583333333333 : 5.5625 : JumpEnd); (3.46875 : 5.5625); (3.46875 : 17.225); (3 : 17.225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCategory/TblCategory_TblTask" />
+      <nodes>
+        <classShapeMoniker Id="c480a656-03d5-4bd5-9f7b-848c8874669d" />
+        <classShapeMoniker Id="021b0d0d-1a31-4e4b-845b-3c3ee1fad81c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.6249995 : 29.875); (12.6249995 : 29.225); (13.625 : 29.225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblType/TblType_TblRequirement" />
+      <nodes>
+        <classShapeMoniker Id="e551409f-5998-46c3-8bd1-973d4abc8607" />
+        <classShapeMoniker Id="baf72151-8157-4883-b53e-0314bd100b1a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fcbb3968-9450-4761-90de-1c49a1805e9d" isExpanded="false" absoluteBounds="6.5, 17.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="63d665b5-cd19-47b6-8dd8-787e8e5ec958" absoluteBounds="6.515, 18.085, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 17.85); (8.63541666666667 : 17.85 : JumpStart); (8.80208333333333 : 17.85 : JumpEnd); (11.4166666666667 : 17.85 : JumpStart); (11.5833333333333 : 17.85 : JumpEnd); (11.9166666666667 : 17.85 : JumpStart); (12.0833333333333 : 17.85 : JumpEnd); (14.3541641666667 : 17.85 : JumpStart); (14.5208308333333 : 17.85 : JumpEnd); (14.5416666666667 : 17.85 : JumpStart); (14.7083333333333 : 17.85 : JumpEnd); (15.53125 : 17.85); (15.53125 : 26.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblMotivationPunishment" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="a6a795f6-90c1-4eac-855c-42d7d4e9f3c8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.61913975 : 18.075); (7.61913975 : 18.5812475); (7.71305297916667 : 18.5812475 : JumpStart); (7.87971964583333 : 18.5812475 : JumpEnd); (7.89029954166667 : 18.5812475 : JumpStart); (8.05696620833333 : 18.5812475 : JumpEnd); (8.18473510416667 : 18.5812475 : JumpStart); (8.35140177083333 : 18.5812475 : JumpEnd); (8.63541666666667 : 18.5812475 : JumpStart); (8.80208333333333 : 18.5812475 : JumpEnd); (11.4166666666667 : 18.5812475 : JumpStart); (11.5833333333333 : 18.5812475 : JumpEnd); (11.9166666666667 : 18.5812475 : JumpStart); (12.0833333333333 : 18.5812475 : JumpEnd); (14.3541641666667 : 18.5812475 : JumpStart); (14.5208308333333 : 18.5812475 : JumpEnd); (14.5416666666667 : 18.5812475 : JumpStart); (14.7083333333333 : 18.5812475 : JumpEnd); (17.4166666666667 : 18.5812475 : JumpStart); (17.5833333333333 : 18.5812475 : JumpEnd); (18 : 18.5812475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblRelativeReference" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="f7a404f9-59d6-4ede-a61a-2bae98393db1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.2680684375 : 18.075); (8.2680684375 : 23.4375); (8.9375 : 23.4375); (8.9375 : 39.225); (9 : 39.225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblUser" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="33bcbdeb-8d17-408d-b2a3-cef32b140a11" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 17.7062475); (8.63541666666667 : 17.7062475 : JumpStart); (8.80208333333333 : 17.7062475 : JumpEnd); (11.4166666666667 : 17.7062475 : JumpStart); (11.5833333333333 : 17.7062475 : JumpEnd); (11.9166666666667 : 17.7062475 : JumpStart); (12.0833333333333 : 17.7062475 : JumpEnd); (14.3541641666667 : 17.7062475 : JumpStart); (14.5208308333333 : 17.7062475 : JumpEnd); (14.5416666666667 : 17.7062475 : JumpStart); (14.7083333333333 : 17.7062475 : JumpEnd); (17.4166666666667 : 17.7062475 : JumpStart); (17.5833333333333 : 17.7062475 : JumpEnd); (21 : 17.7062475); (21 : 14.7)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblWifeHusband" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="c7250bab-95e9-4939-a434-34c6c5c7fef3" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4298c1df-336b-4b13-a681-f5b5aad9dd43" isExpanded="false" absoluteBounds="7, 44.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblLeavePermission" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57739749-7eca-4cfe-bb50-96c0bdc84a10" absoluteBounds="7.015, 44.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.31323153125 : 18.075); (7.31323153125 : 23.25); (7.09065664583333 : 23.25 : JumpStart); (6.92398997916667 : 23.25 : JumpEnd); (6.86458333333333 : 23.25 : JumpStart); (6.54166666666667 : 23.25 : JumpEnd); (6.375 : 23.25); (6.375 : 25.875); (6.69791666666667 : 25.875 : JumpStart); (6.86458333333333 : 25.875 : JumpEnd); (7.625 : 25.875); (7.625 : 29.375); (6 : 29.375); (6 : 38.125); (6.125 : 38.125); (6.125 : 44.475); (7 : 44.475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblLeavePermission" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="4298c1df-336b-4b13-a681-f5b5aad9dd43" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.7963863125 : 18.075); (7.7963863125 : 23); (6.86458333333333 : 23 : JumpStart); (6.69791666666667 : 23 : JumpEnd); (6.625 : 23); (6.625 : 25.625); (6.69791666666667 : 25.625 : JumpStart); (6.86458333333333 : 25.625 : JumpEnd); (7.875 : 25.625); (7.875 : 29.125); (5.75 : 29.125); (5.75 : 37.875); (6.375 : 37.875); (6.375 : 44.331248); (7 : 44.331248)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblLeavePermission1" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="4298c1df-336b-4b13-a681-f5b5aad9dd43" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4ba17b29-864d-4d73-8512-5659743b7b29" absoluteBounds="10, 36.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LqHRDataContext/TblTraineeLecture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="038c7870-d6ae-4f6b-8d4e-b67302ef31b0" absoluteBounds="10.015, 36.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec8c96c5-32e9-44b8-8ff0-36d824ac4e40" absoluteBounds="11.875, 38.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LqHRDataContext/TblLecture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cc073e8-3c30-4343-8686-2c83c17c20e5" absoluteBounds="11.89, 38.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.9375005 : 38.5); (12.9375005 : 37.2892976888021); (12 : 37.2892976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblLecture/TblLecture_TblTraineeLecture" />
+      <nodes>
+        <classShapeMoniker Id="ec8c96c5-32e9-44b8-8ff0-36d824ac4e40" />
+        <classShapeMoniker Id="4ba17b29-864d-4d73-8512-5659743b7b29" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f3575ddd-8297-451e-bc9f-f5779753d18e" isExpanded="false" absoluteBounds="8.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblPAForTraineer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="339e9af3-3365-47f1-a98a-e9f8e0beff9e" absoluteBounds="8.515, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55ccfec1-f1aa-4ba7-813f-f0c56f0623d1" isExpanded="false" absoluteBounds="6, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblTraineePerformanceAppraisal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c430a0a7-04ed-4d40-ad96-a4c87477f1d8" absoluteBounds="6.015, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 0.725); (8 : 0.725)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblPAForTraineer/TblPAForTraineer_TblTraineePerformanceAppraisal" />
+      <nodes>
+        <classShapeMoniker Id="f3575ddd-8297-451e-bc9f-f5779753d18e" />
+        <classShapeMoniker Id="55ccfec1-f1aa-4ba7-813f-f0c56f0623d1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f317ed49-9198-4978-9350-1ed87444c1fd" isExpanded="false" absoluteBounds="3.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblPAForEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3d9885f-2085-4b6c-9327-66a9a83c64d9" absoluteBounds="3.765, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9cdb0fc0-04e7-46e8-b5d0-267d753c27e9" isExpanded="false" absoluteBounds="3.625, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblPAPerJob" />
+      <nestedChildShapes>
+        <elementListCompartment Id="82c8f0ce-7c03-4945-9032-5f11b08e9a0d" absoluteBounds="3.64, 2.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 0.95); (6.125 : 1.325); (6.125 : 1.975); (6.08333333333333 : 1.975 : JumpStart); (5.91666666666667 : 1.975 : JumpEnd); (5.625 : 1.975)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblPAForEmployee/TblPAForEmployee_TblPAPerJob" />
+      <nodes>
+        <classShapeMoniker Id="f317ed49-9198-4978-9350-1ed87444c1fd" />
+        <classShapeMoniker Id="9cdb0fc0-04e7-46e8-b5d0-267d753c27e9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f3971242-6ff7-4a93-bcfb-5ace13896ae1" isExpanded="false" absoluteBounds="1.5, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblAveragePAPerTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d19b5000-3dce-480d-8d2f-cff2fa39e9dd" absoluteBounds="1.5150000000000001, 1.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.1874995 : 17); (2.1874995 : 14.7); (1.45833333333333 : 14.7 : JumpStart); (1.29166666666667 : 14.7 : JumpEnd); (0.375 : 14.7); (0.375 : 0.85); (1.5 : 0.85)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblTask/TblTask_TblAveragePAPerTask" />
+      <nodes>
+        <classShapeMoniker Id="021b0d0d-1a31-4e4b-845b-3c3ee1fad81c" />
+        <classShapeMoniker Id="f3971242-6ff7-4a93-bcfb-5ace13896ae1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7c2063a1-33e8-4f37-9857-af0a82c01dce" isExpanded="false" absoluteBounds="0.75, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeePA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f443476b-dee6-41a7-8589-3014e08695c4" absoluteBounds="0.76500000000000012, 1.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.125 : 1.075); (2.125 : 1.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblAveragePAPerTask/TblAveragePAPerTask_TblEmployeePA" />
+      <nodes>
+        <classShapeMoniker Id="f3971242-6ff7-4a93-bcfb-5ace13896ae1" />
+        <classShapeMoniker Id="7c2063a1-33e8-4f37-9857-af0a82c01dce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 17.706248); (5.33821848958333 : 17.706248 : JumpStart); (5.05143197916667 : 17.706248 : JumpEnd); (4.89388177083333 : 17.706248 : JumpStart); (4.72721510416667 : 17.706248 : JumpEnd); (4.68489458333333 : 17.706248 : JumpStart); (4.51822791666667 : 17.706248 : JumpEnd); (4.38020583333333 : 17.706248 : JumpStart); (4.21353916666667 : 17.706248 : JumpEnd); (0.5 : 17.706248); (0.5 : 3.2); (2.875 : 3.2); (2.875 : 2.075); (1.75 : 2.075); (1.75 : 1.7)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeePA" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="7c2063a1-33e8-4f37-9857-af0a82c01dce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 17.921876); (5.33821848958333 : 17.921876 : JumpStart); (5.05143197916667 : 17.921876 : JumpEnd); (4.89388177083333 : 17.921876 : JumpStart); (4.72721510416667 : 17.921876 : JumpEnd); (4.38020583333333 : 17.921876 : JumpStart); (4.21353916666667 : 17.921876 : JumpEnd); (0.625 : 17.921876); (0.625 : 3.45); (2.75 : 3.45); (2.75 : 2.2); (2.281252 : 2.2); (2.281252 : 1.7)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeePA1" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="7c2063a1-33e8-4f37-9857-af0a82c01dce" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5473c3a4-f1dc-4af2-b999-599b17e728ac" isExpanded="false" absoluteBounds="9, 23.125, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblCompanyProfile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d075648c-1673-4792-86df-957130d048e2" absoluteBounds="9.015, 23.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 23.35); (11.4166666666667 : 23.35 : JumpStart); (11.5833333333333 : 23.35 : JumpEnd); (12 : 23.35); (12 : 6.575); (11.375 : 6.575); (11.375 : 1.825); (12.015626 : 1.825); (12.015626 : 1.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCompanyProfile/TblCompanyProfile_TblDepartment" />
+      <nodes>
+        <classShapeMoniker Id="5473c3a4-f1dc-4af2-b999-599b17e728ac" />
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b0339547-d457-47cf-85e9-18dfd5da38ce" absoluteBounds="9.125, 28.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LqHRDataContext/TblYearlyVacation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a4a9a82-7d54-4917-a38d-169e78c429b4" absoluteBounds="9.14, 28.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ddf3a41-8698-4aa8-a653-9301fafbfba7" absoluteBounds="9.5, 26.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LqHRDataContext/TblVacation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbac0b0d-e1a8-4566-8380-cfdf7d485a61" absoluteBounds="9.515, 26.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.40625 : 27.8862939453125); (10.40625 : 28.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblVacation/TblVacation_TblYearlyVacation" />
+      <nodes>
+        <classShapeMoniker Id="5ddf3a41-8698-4aa8-a653-9301fafbfba7" />
+        <classShapeMoniker Id="b0339547-d457-47cf-85e9-18dfd5da38ce" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a94f4ce8-2d84-4548-a489-29f507b5ef71" absoluteBounds="1.75, 27.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LqHRDataContext/TblHoliday" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9ec3da9-7916-46af-b9ad-d78e277bda47" absoluteBounds="1.7649999999999997, 28.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bbace727-e340-4dbb-8a8f-620b951da1de" isExpanded="false" absoluteBounds="5.375, 26.125, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeHoliday" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b426a51f-bcf0-47c6-81f0-09c765a55017" absoluteBounds="5.39, 26.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.78125 : 18.075); (6.78125 : 26.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeHoliday" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="bbace727-e340-4dbb-8a8f-620b951da1de" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.75 : 28.4375); (4.72721510416667 : 28.4375 : JumpStart); (5.04036395833333 : 28.4375 : JumpEnd); (5.05143197916667 : 28.4375 : JumpStart); (5.33821848958333 : 28.4375 : JumpEnd); (6.53125025 : 28.4375); (6.53125025 : 26.575)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblHoliday/TblHoliday_TblEmployeeHoliday" />
+      <nodes>
+        <classShapeMoniker Id="a94f4ce8-2d84-4548-a489-29f507b5ef71" />
+        <classShapeMoniker Id="bbace727-e340-4dbb-8a8f-620b951da1de" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1608dfb9-ae81-4da2-912a-16cbce821abb" isExpanded="false" absoluteBounds="1.125, 6.25, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblExecuteVacationsDay" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6cc6099-f95f-42b9-b709-04e6d5bc6a97" absoluteBounds="1.1400000000000001, 6.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed6de312-dd28-4b60-86ef-deddb3e263a1" absoluteBounds="4, 38.375, 1.875, 2.7324039713541666">
+      <DataClassMoniker Name="/LqHRDataContext/TblVacationsHolidaysDashBoard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d94a7794-4fb8-4880-bfad-501753423cb8" absoluteBounds="4.015, 38.835, 1.8450000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 17.921876); (5.33821848958333 : 17.921876 : JumpStart); (5.05143197916667 : 17.921876 : JumpEnd); (4.957030625 : 17.921876); (4.957030625 : 38.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblVacationsHolidaysDashBoard" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="ed6de312-dd28-4b60-86ef-deddb3e263a1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="492c62a5-22c1-46ea-87bb-1c45607c5cc0" isExpanded="false" absoluteBounds="6.875, 23.5, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeVacation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f891eb8-764b-4a34-9d4e-6bfeb1a79c16" absoluteBounds="6.89, 23.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.625 : 23.5); (8.625 : 6.575); (8.58333333333333 : 6.575 : JumpStart); (8.41666666666667 : 6.575 : JumpEnd); (7.33333333333333 : 6.575 : JumpStart); (7.16666666666667 : 6.575 : JumpEnd); (6.17708333333333 : 6.575 : JumpStart); (6.01041666666667 : 6.575 : JumpEnd); (5.95833333333333 : 6.575 : JumpStart); (5.79166666666667 : 6.575 : JumpEnd); (4.83333333333333 : 6.575 : JumpStart); (4.66666666666667 : 6.575 : JumpEnd); (3.55208333333333 : 6.575 : JumpStart); (3.15104166666667 : 6.575 : JumpEnd); (3.125 : 6.575)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployeeVacation/TblEmployeeVacation_TblExecuteVacationsDay" />
+      <nodes>
+        <classShapeMoniker Id="492c62a5-22c1-46ea-87bb-1c45607c5cc0" />
+        <classShapeMoniker Id="1608dfb9-ae81-4da2-912a-16cbce821abb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.0073233125 : 18.075); (7.0073233125 : 23.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeVacation" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="492c62a5-22c1-46ea-87bb-1c45607c5cc0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5 : 26.5); (10.5 : 23.79375); (10.0520813333333 : 23.79375 : JumpStart); (9.88541466666667 : 23.79375 : JumpEnd); (8.875 : 23.79375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblVacation/TblVacation_TblEmployeeVacation" />
+      <nodes>
+        <classShapeMoniker Id="5ddf3a41-8698-4aa8-a653-9301fafbfba7" />
+        <classShapeMoniker Id="492c62a5-22c1-46ea-87bb-1c45607c5cc0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7c1e232a-5304-413c-99cc-517cb366165d" absoluteBounds="16.125, 12.25, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeJob" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f49e1c30-56f7-419a-b2ba-0d971d417a11" absoluteBounds="16.14, 12.71, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(0.65625 : 2.95); (0.65625 : 15.6657055664062); (2.10416616666667 : 15.6657055664062 : JumpStart); (2.27083283333333 : 15.6657055664062 : JumpEnd); (3.38541666666667 : 15.6657055664062 : JumpStart); (3.55208333333333 : 15.6657055664062 : JumpEnd); (4.21353916666667 : 15.6657055664062 : JumpStart); (4.38020583333333 : 15.6657055664062 : JumpEnd); (4.51822791666667 : 15.6657055664062 : JumpStart); (4.68489458333333 : 15.6657055664062 : JumpEnd); (4.72721510416667 : 15.6657055664062 : JumpStart); (4.89388177083333 : 15.6657055664062 : JumpEnd); (5.05143197916667 : 15.6657055664062 : JumpStart); (5.33821848958333 : 15.6657055664062 : JumpEnd); (5.79166666666667 : 15.6657055664062 : JumpStart); (5.95833333333333 : 15.6657055664062 : JumpEnd); (8.54166666666667 : 15.6657055664062 : JumpStart); (8.80208333333333 : 15.6657055664062 : JumpEnd); (9.66666666666667 : 15.6657055664062 : JumpStart); (9.83333333333333 : 15.6657055664062 : JumpEnd); (11.4166666666667 : 15.6657055664062 : JumpStart); (11.5833333333333 : 15.6657055664062 : JumpEnd); (11.9166666666667 : 15.6657055664062 : JumpStart); (12.0833333333333 : 15.6657055664062 : JumpEnd); (13.1666666666667 : 15.6657055664062 : JumpStart); (13.3333333333333 : 15.6657055664062 : JumpEnd); (14.3541641666667 : 15.6657055664062 : JumpStart); (14.5208308333333 : 15.6657055664062 : JumpEnd); (14.5416666666667 : 15.6657055664062 : JumpStart); (14.7083333333333 : 15.6657055664062 : JumpEnd); (16.125 : 15.6657055664062)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblContractType/TblContractType_TblEmployeeJob" />
+      <nodes>
+        <classShapeMoniker Id="7111b02b-9d14-4e03-9772-1fe6a31a6a8a" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5 : 1.3687525); (16.71875 : 1.3687525); (16.71875 : 12.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblEmployeeJob" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 17.9937525); (8.63541666666667 : 17.9937525 : JumpStart); (8.80208333333333 : 17.9937525 : JumpEnd); (11.4166666666667 : 17.9937525 : JumpStart); (11.5833333333333 : 17.9937525 : JumpEnd); (11.9166666666667 : 17.9937525 : JumpStart); (12.0833333333333 : 17.9937525 : JumpEnd); (14.3541641666667 : 17.9937525 : JumpStart); (14.5208308333333 : 17.9937525 : JumpEnd); (14.5416666666667 : 17.9937525 : JumpStart); (14.7083333333333 : 17.9937525 : JumpEnd); (16.9375 : 17.9937525); (16.9375 : 15.9439111328125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeJob" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 17.674995); (8.54166666666667 : 17.674995 : JumpStart); (8.80208333333333 : 17.674995 : JumpEnd); (9.66666666666667 : 17.674995 : JumpStart); (9.83333333333333 : 17.674995 : JumpEnd); (11.4166666666667 : 17.674995 : JumpStart); (11.5833333333333 : 17.674995 : JumpEnd); (11.6666666666667 : 17.674995 : JumpStart); (11.8333333333333 : 17.674995 : JumpEnd); (11.9166666666667 : 17.674995 : JumpStart); (12.0833333333333 : 17.674995 : JumpEnd); (14.3541641666667 : 17.674995 : JumpStart); (14.5208308333333 : 17.674995 : JumpEnd); (14.5416666666667 : 17.674995 : JumpStart); (14.7083333333333 : 17.674995 : JumpEnd); (16.4999975 : 17.674995); (16.4999975 : 15.9439111328125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeJob1" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" absoluteBounds="19, 7.625, 2, 3.1170068359375">
+      <DataClassMoniker Name="/LqHRDataContext/TblJobDescription" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50f3c144-8ff7-4688-b701-011bf5570d79" absoluteBounds="19.015, 8.085, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(19 : 7.78125); (11.3333333333333 : 7.78125 : JumpStart); (11.1666666666667 : 7.78125 : JumpEnd); (8.875 : 7.78125); (8.875 : 3.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblDepartmentForSchedule" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="96e544f7-e4af-4468-a63c-5d59a31d52ef" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19 : 8.81875); (16.8020833333333 : 8.81875 : JumpStart); (16.6354166666667 : 8.81875 : JumpEnd); (14.7083333333333 : 8.81875 : JumpStart); (14.5416666666667 : 8.81875 : JumpEnd); (12.4583333333333 : 8.81875 : JumpStart); (12.2916666666667 : 8.81875 : JumpEnd); (12.0833333333333 : 8.81875 : JumpStart); (11.9166666666667 : 8.81875 : JumpEnd); (11.7083333333333 : 8.81875 : JumpStart); (11.5416666666667 : 8.81875 : JumpEnd); (11.3333333333333 : 8.81875 : JumpStart); (11.1666666666667 : 8.81875 : JumpEnd); (9.09375 : 8.81875); (9.09375 : 3.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblDepartmentForSchedule1" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="96e544f7-e4af-4468-a63c-5d59a31d52ef" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(20.60937675 : 7.625); (20.60937675 : 5.6); (19.9973947083333 : 5.6 : JumpStart); (19.8307280416667 : 5.6 : JumpEnd); (19.7552065833333 : 5.6 : JumpStart); (19.5885399166667 : 5.6 : JumpEnd); (19.125 : 5.6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblJobRequirement" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="2805445e-d2b7-4a0d-ac06-da3720c51680" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.67187325 : 7.625); (19.67187325 : 3.06814697265625); (19.25 : 3.06814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblJobsPerDepartment" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="8ecca179-017b-453c-8cb8-4723cdfcd0f2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19 : 10.0960039179687); (18.6458333333333 : 10.0960039179687 : JumpStart); (18.4791666666667 : 10.0960039179687 : JumpEnd); (17.96875 : 10.0960039179687); (17.96875 : 9.45)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblJobTask" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="a2340f0e-b211-4ba9-a8a0-523198fd7c94" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.914061375 : 7.625); (19.914061375 : 1.88125); (11.3333333333333 : 1.88125 : JumpStart); (11.1666666666667 : 1.88125 : JumpEnd); (5.625 : 1.88125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblPAPerJob" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="9cdb0fc0-04e7-46e8-b5d0-267d753c27e9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.46875 : 10.7420068359375); (19.46875 : 14.0969555664062); (18.6458333333333 : 14.0969555664062 : JumpStart); (18.4791666666667 : 14.0969555664062 : JumpEnd); (18.125 : 14.0969555664062)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblEmployeeJob" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5 : 1.0812475); (20.1562495 : 1.0812475); (20.1562495 : 7.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblJobDescription" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 6.2); (12.375 : 10.4502578769531); (14.5416666666667 : 10.4502578769531 : JumpStart); (14.7083333333333 : 10.4502578769531 : JumpEnd); (16.6354166666667 : 10.4502578769531 : JumpStart); (16.8020833333333 : 10.4502578769531 : JumpEnd); (18.4791666666667 : 10.4502578769531 : JumpStart); (18.6458333333333 : 10.4502578769531 : JumpEnd); (19 : 10.4502578769531)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobCategory/TblJobCategory_TblJobDescription" />
+      <nodes>
+        <classShapeMoniker Id="c55c7451-90ee-4919-baf6-973054c143a6" />
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(21 : 9.18350341796875); (21.25 : 9.18350341796875); (21.25 : 9.90153586989183); (21 : 9.90153586989183)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblJobDescription/TblJobDescription_TblJobDescription" />
+      <nodes>
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.75 : 24.75); (11.75 : 9.77299945898435); (11.9166666666667 : 9.77299945898435 : JumpStart); (12.0833333333333 : 9.77299945898435 : JumpEnd); (12.2916666666667 : 9.77299945898435 : JumpStart); (12.4583333333333 : 9.77299945898435 : JumpEnd); (14.5416666666667 : 9.77299945898435 : JumpStart); (14.7083333333333 : 9.77299945898435 : JumpEnd); (16.6354166666667 : 9.77299945898435 : JumpStart); (16.8020833333333 : 9.77299945898435 : JumpEnd); (17.8854166666667 : 9.77299945898435 : JumpStart); (18.0520833333333 : 9.77299945898435 : JumpEnd); (18.4791666666667 : 9.77299945898435 : JumpStart); (18.6458333333333 : 9.77299945898435 : JumpEnd); (19 : 9.77299945898435)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblRequiredHoursForJob/TblRequiredHoursForJob_TblJobDescription" />
+      <nodes>
+        <classShapeMoniker Id="a42a209e-f823-4114-af6a-60402b459fd4" />
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e488842b-0b27-41e0-8ce0-ce700c6f7c1b" absoluteBounds="17.5, 24.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LqHRDataContext/TblClassification" />
+      <nestedChildShapes>
+        <elementListCompartment Id="980a5727-4b21-4903-9656-e9074e9fbc97" absoluteBounds="17.515, 24.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(18.8437495 : 24.25); (18.8437495 : 19.2); (20.25 : 19.2); (20.25 : 14.95); (20.9166666666667 : 14.95 : JumpStart); (21.0833333333333 : 14.95 : JumpEnd); (22.25 : 14.95); (22.25 : 9.18350341796875); (21 : 9.18350341796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblClassification/TblClassification_TblJobDescription" />
+      <nodes>
+        <classShapeMoniker Id="e488842b-0b27-41e0-8ce0-ce700c6f7c1b" />
+        <classShapeMoniker Id="5012557a-5cfc-4927-96c7-66e4ea6fa2ad" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f93f0fc9-cced-4807-aa30-980ae681f942" absoluteBounds="16.125, 21.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LqHRDataContext/TblDegree" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b018a1ff-9b53-42e7-9666-581251eadcf6" absoluteBounds="16.14, 21.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(17.5 : 21.125); (17.5 : 15.9439111328125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDegree/TblDegree_TblEmployeeJob" />
+      <nodes>
+        <classShapeMoniker Id="f93f0fc9-cced-4807-aa30-980ae681f942" />
+        <classShapeMoniker Id="7c1e232a-5304-413c-99cc-517cb366165d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.8125 : 24.25); (17.8125 : 22.7035953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblClassification/TblClassification_TblDegree" />
+      <nodes>
+        <classShapeMoniker Id="e488842b-0b27-41e0-8ce0-ce700c6f7c1b" />
+        <classShapeMoniker Id="f93f0fc9-cced-4807-aa30-980ae681f942" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="048317db-f971-4048-950a-45a5b582e55d" absoluteBounds="24.875, 21, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LqHRDataContext/TblMonth" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1b795ec-bfed-46b9-aee0-e9c579f9a184" absoluteBounds="24.89, 21.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2d7920f9-6aab-4a78-9e97-e4fc7258a666" absoluteBounds="19.75, 20.25, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeSalary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2e6aa73-53dc-487a-a419-b055512c484e" absoluteBounds="19.765, 20.71, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.831248); (3 : 5.831248); (3 : 6); (3.07291666666667 : 6 : JumpStart); (3.23958333333333 : 6 : JumpEnd); (3.40625 : 6); (3.40625 : 7.375); (4.66666666666667 : 7.375 : JumpStart); (4.83333333333333 : 7.375 : JumpEnd); (5.79166666666667 : 7.375 : JumpStart); (5.95833333333333 : 7.375 : JumpEnd); (6.01041666666667 : 7.375 : JumpStart); (6.17708333333333 : 7.375 : JumpEnd); (7.16666666666667 : 7.375 : JumpStart); (7.33333333333333 : 7.375 : JumpEnd); (8.41666666666667 : 7.375 : JumpStart); (8.95833333333333 : 7.375 : JumpEnd); (9.01041666666667 : 7.375 : JumpStart); (9.17708333333333 : 7.375 : JumpEnd); (11.1666666666667 : 7.375 : JumpStart); (11.3333333333333 : 7.375 : JumpEnd); (11.5416666666667 : 7.375 : JumpStart); (11.7083333333333 : 7.375 : JumpEnd); (11.9166666666667 : 7.375 : JumpStart); (12.0833333333333 : 7.375 : JumpEnd); (12.2916666666667 : 7.375 : JumpStart); (12.4583333333333 : 7.375 : JumpEnd); (15.1666666666667 : 7.375 : JumpStart); (15.3333333333333 : 7.375 : JumpEnd); (16.4166666666667 : 7.375 : JumpStart); (16.5833333333333 : 7.375 : JumpEnd); (16.6354166666667 : 7.375 : JumpStart); (16.8020833333333 : 7.375 : JumpEnd); (19.5885399166667 : 7.375 : JumpStart); (19.7552065833333 : 7.375 : JumpEnd); (19.8307280416667 : 7.375 : JumpStart); (19.9973947083333 : 7.375 : JumpEnd); (20.0729161666667 : 7.375 : JumpStart); (20.2395828333333 : 7.375 : JumpEnd); (20.5260434166667 : 7.375 : JumpStart); (20.6927100833333 : 7.375 : JumpEnd); (21.5 : 7.375); (21.5 : 14); (19.75 : 14); (19.75 : 18.25); (20.1666666666667 : 18.25 : JumpStart); (20.3333333333333 : 18.25 : JumpEnd); (20.9999995 : 18.25); (20.9999995 : 20.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCurrency/TblCurrency_TblEmployeeSalary" />
+      <nodes>
+        <classShapeMoniker Id="3734c877-b8d2-4f67-b57c-58bb28f07648" />
+        <classShapeMoniker Id="2d7920f9-6aab-4a78-9e97-e4fc7258a666" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.973632875 : 18.075); (7.973632875 : 20.65625); (8.18473510416667 : 20.65625 : JumpStart); (8.35140177083333 : 20.65625 : JumpEnd); (8.63541666666667 : 20.65625 : JumpStart); (8.80208333333333 : 20.65625 : JumpEnd); (11.4166666666667 : 20.65625 : JumpStart); (11.5833333333333 : 20.65625 : JumpEnd); (11.9166666666667 : 20.65625 : JumpStart); (12.0833333333333 : 20.65625 : JumpEnd); (14.3541641666667 : 20.65625 : JumpStart); (14.5208308333333 : 20.65625 : JumpEnd); (14.5416666666667 : 20.65625 : JumpStart); (14.7083333333333 : 20.65625 : JumpEnd); (19.75 : 20.65625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeSalary" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="2d7920f9-6aab-4a78-9e97-e4fc7258a666" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6290c843-b36a-4b0e-8d59-8c3cefd19fa9" absoluteBounds="29.125, 24.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LqHRDataContext/TblYear" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3c8efbc-76d8-4f70-916f-ba37e6680174" absoluteBounds="29.14, 24.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5f8daf3-f12b-4249-b8bf-67db11748586" absoluteBounds="26.375, 22.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LqHRDataContext/TblMonthsPerYear" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1de15397-9135-43ac-9ee2-ceb1009b49c9" absoluteBounds="26.39, 23.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(26.625 : 22.3862939453125); (26.625 : 22.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblMonth/TblMonth_TblMonthsPerYear" />
+      <nodes>
+        <classShapeMoniker Id="048317db-f971-4048-950a-45a5b582e55d" />
+        <classShapeMoniker Id="f5f8daf3-f12b-4249-b8bf-67db11748586" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(29.125 : 24.6739005533854); (28.375 : 24.6739005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblYear/TblYear_TblMonthsPerYear" />
+      <nodes>
+        <classShapeMoniker Id="6290c843-b36a-4b0e-8d59-8c3cefd19fa9" />
+        <classShapeMoniker Id="f5f8daf3-f12b-4249-b8bf-67db11748586" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="30a9bb35-9691-4483-bf01-c34ca0633ea1" absoluteBounds="12.25, 12.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LqHRDataContext/TblFamilyMember" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25adec99-346e-4aa2-9f72-4d63fb6638c7" absoluteBounds="12.265, 12.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 17.7375); (8.63541666666667 : 17.7375 : JumpStart); (8.80208333333333 : 17.7375 : JumpEnd); (11.4166666666667 : 17.7375 : JumpStart); (11.5833333333333 : 17.7375 : JumpEnd); (11.9166666666667 : 17.7375 : JumpStart); (12.0833333333333 : 17.7375 : JumpEnd); (13.25 : 17.7375); (13.25 : 15.1074039713542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblFamilyMember" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="30a9bb35-9691-4483-bf01-c34ca0633ea1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8570da6d-3e0d-48db-aec5-f6232ed4fa1a" absoluteBounds="23.5, 18.5, 2, 6.5784326171875">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeSalaryHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3615db7b-7b43-426a-9005-3886fc34816c" absoluteBounds="23.515, 18.96, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.131252); (3.10416666666667 : 6.131252 : JumpStart); (3.27083333333333 : 6.131252 : JumpEnd); (3.28125 : 6.131252); (3.28125 : 6); (3.34375 : 6); (3.34375 : 6.45); (8.41666666666667 : 6.45 : JumpStart); (8.58333333333333 : 6.45 : JumpEnd); (8.63541666666667 : 6.45 : JumpStart); (8.95833333333333 : 6.45 : JumpEnd); (11.1666666666667 : 6.45 : JumpStart); (11.4583333333333 : 6.45 : JumpEnd); (16.4166666666667 : 6.45 : JumpStart); (16.5833333333333 : 6.45 : JumpEnd); (19.5885399166667 : 6.45 : JumpStart); (19.7552065833333 : 6.45 : JumpEnd); (19.8307280416667 : 6.45 : JumpStart); (19.9973947083333 : 6.45 : JumpEnd); (24.5 : 6.45); (24.5 : 18.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblCurrency/TblCurrency_TblEmployeeSalaryHistory" />
+      <nodes>
+        <classShapeMoniker Id="3734c877-b8d2-4f67-b57c-58bb28f07648" />
+        <classShapeMoniker Id="8570da6d-3e0d-48db-aec5-f6232ed4fa1a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 18.025005); (11.4166666666667 : 18.025005 : JumpStart); (11.5833333333333 : 18.025005 : JumpEnd); (24.5 : 18.025005); (24.5 : 18.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeSalaryHistory" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="8570da6d-3e0d-48db-aec5-f6232ed4fa1a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(26.375 : 23.9767163085938); (25.5 : 23.9767163085938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblMonthsPerYear/TblMonthsPerYear_TblEmployeeSalaryHistory" />
+      <nodes>
+        <classShapeMoniker Id="f5f8daf3-f12b-4249-b8bf-67db11748586" />
+        <classShapeMoniker Id="8570da6d-3e0d-48db-aec5-f6232ed4fa1a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fea3cc84-7f95-4f01-adf1-878249bd28bb" absoluteBounds="0.5, 26.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LqHRDataContext/TblUnit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48be0601-de28-4533-8afd-76aa246cbc9b" absoluteBounds="0.515, 26.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="375d2605-ec50-4dde-b817-f7083be53fdb" absoluteBounds="0.5, 22.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LqHRDataContext/TblSalaryCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff0efe16-4eb7-4106-a5f1-7209a0ebbd42" absoluteBounds="0.51500000000000012, 23.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" isExpanded="false" absoluteBounds="3.125, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/LqHRDataContext/TblSetting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfd1aa03-23b6-446e-bd54-680217cd847c" absoluteBounds="3.1399999999999997, 2.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.625 : 2.6625); (5.125 : 2.6625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblPosition/TblPosition_TblSetting" />
+      <nodes>
+        <classShapeMoniker Id="66a53b4b-2e5f-4343-ac49-552db907637a" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.081248); (3.234375 : 14.081248); (3.234375 : 6); (2.9375 : 6); (2.9375 : 3.575); (3.01041666666667 : 3.575 : JumpStart); (3.17708333333333 : 3.575 : JumpEnd); (3.22916666666667 : 3.575 : JumpStart); (3.47395833333333 : 3.575 : JumpEnd); (3.593748 : 3.575); (3.593748 : 2.825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblSetting" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.368752); (3.375 : 14.368752); (3.375 : 6); (3.23958333333333 : 6 : JumpStart); (3.07291666666667 : 6 : JumpEnd); (2.8125 : 6); (2.8125 : 3.325); (3.01041666666667 : 3.325 : JumpStart); (3.17708333333333 : 3.325 : JumpEnd); (3.30729166666667 : 3.325 : JumpStart); (3.47395833333333 : 3.325 : JumpEnd); (3.51041466666667 : 3.325 : JumpStart); (3.67708133333333 : 3.325 : JumpEnd); (4.656252 : 3.325); (4.656252 : 2.825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblSetting1" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.225); (3.390625 : 14.225); (3.390625 : 3.2); (4.125 : 3.2); (4.125 : 2.825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblSetting2" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.368752); (3.15625 : 14.368752); (3.15625 : 5.6875); (3.3125 : 5.6875); (3.3125 : 3.45); (4.656252 : 3.45); (4.656252 : 2.825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblSetting3" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.0499955); (3.07291666666667 : 14.0499955 : JumpStart); (3.23958333333333 : 14.0499955 : JumpEnd); (3.359375 : 14.0499955); (3.359375 : 6); (3.09375 : 6); (3.09375 : 3.075); (3.859374 : 3.075); (3.859374 : 2.825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblSetting4" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.968748 : 26.5); (9.968748 : 23.6375); (8.9375 : 23.6375); (8.9375 : 22.7625); (8.71875 : 22.7625); (8.71875 : 3.0125); (6.5625 : 3.0125); (6.5625 : 2.6); (5.125 : 2.6)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblVacation/TblVacation_TblSetting" />
+      <nodes>
+        <classShapeMoniker Id="5ddf3a41-8698-4aa8-a653-9301fafbfba7" />
+        <classShapeMoniker Id="019259dd-27b0-4a97-86a8-b9a584fb1ab6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4004ecde-1670-4840-b86b-980dec3d46d0" absoluteBounds="3.75, 9.75, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/LqHRDataContext/TblApplicant" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38b7524e-006a-46b7-a257-98d3f1fc9fa7" absoluteBounds="3.7649999999999997, 10.21, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.75 : 11.35); (5.79166666666667 : 11.35 : JumpStart); (5.95833333333333 : 11.35 : JumpEnd); (6.01041666666667 : 11.35 : JumpStart); (6.17708333333333 : 11.35 : JumpEnd); (6.25 : 11.35)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblAddress" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="6cea6602-8a63-4937-89a4-5bb9e10d3f38" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 9.75); (4.75 : 6.325); (5.75 : 6.325); (5.75 : 5.9624995); (6.01041666666667 : 5.9624995 : JumpStart); (6.17708333333333 : 5.9624995 : JumpEnd); (6.25 : 5.9624995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblApplicantMedicalIssue" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="88134d67-e174-4ef1-8bcc-f010a2016208" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 13.225); (6.09375 : 13.225); (6.09375 : 3.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblApplicantSkill" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="4b599a02-c6c6-44ce-935b-5a3ffb60a8be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.2812525 : 9.75); (5.2812525 : 8.475); (5.46354541666667 : 8.475 : JumpStart); (5.63021208333333 : 8.475 : JumpEnd); (6.01041666666667 : 8.475 : JumpStart); (6.17708333333333 : 8.475 : JumpEnd); (6.25 : 8.475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblAttachment" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="6d54ef2e-731a-4e31-9e69-d0fcf876a9e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.2187475 : 9.75); (4.2187475 : 9.3312475); (9.25 : 9.3312475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblEducation" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="7a731364-a9f0-4388-b630-cb84eed07452" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 12.58593825); (8.63541666666667 : 12.58593825 : JumpStart); (8.80208333333333 : 12.58593825 : JumpEnd); (9.25 : 12.58593825)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblExperienceHistory" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="f7ea6083-562f-4bc5-bc33-0650ec02427b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.1347653125 : 14.9823225911458); (5.1347653125 : 29.85); (5.17155182291667 : 29.85 : JumpStart); (5.33821848958333 : 29.85 : JumpEnd); (6.25 : 29.85)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblLanguage" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="3385a949-3054-4168-a8af-b2137f2f484a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.2968725 : 14.9823225911458); (4.2968725 : 18.79687625); (5.17155182291667 : 18.79687625 : JumpStart); (5.33821848958333 : 18.79687625 : JumpEnd); (6.69791666666667 : 18.79687625 : JumpStart); (6.86458333333333 : 18.79687625 : JumpEnd); (8.18473510416667 : 18.79687625 : JumpStart); (8.35140177083333 : 18.79687625 : JumpEnd); (8.63541666666667 : 18.79687625 : JumpStart); (8.80208333333333 : 18.79687625 : JumpEnd); (11.4166666666667 : 18.79687625 : JumpStart); (11.5833333333333 : 18.79687625 : JumpEnd); (11.9166666666667 : 18.79687625 : JumpStart); (12.0833333333333 : 18.79687625 : JumpEnd); (14.5416666666667 : 18.79687625 : JumpStart); (14.7083333333333 : 18.79687625 : JumpEnd); (18 : 18.79687625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblRelativeReference" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="f7a404f9-59d6-4ede-a61a-2bae98393db1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.54687875 : 9.75); (5.54687875 : 8.09375); (8.41666666666667 : 8.09375 : JumpStart); (8.58333333333333 : 8.09375 : JumpEnd); (8.63541666666667 : 8.09375 : JumpStart); (8.80208333333333 : 8.09375 : JumpEnd); (11.1666666666667 : 8.09375 : JumpStart); (11.3333333333333 : 8.09375 : JumpEnd); (11.9166666666667 : 8.09375 : JumpStart); (12.0833333333333 : 8.09375 : JumpEnd); (14.25 : 8.09375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblRequiredJob" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="8d514a76-11b1-4265-854b-e5140dad554f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 11.88125); (6.01041666666667 : 11.88125 : JumpStart); (6.17708333333333 : 11.88125 : JumpEnd); (8.41666666666667 : 11.88125 : JumpStart); (8.58333333333333 : 11.88125 : JumpEnd); (8.63541666666667 : 11.88125 : JumpStart); (8.95833333333333 : 11.88125 : JumpEnd); (11.4166666666667 : 11.88125 : JumpStart); (11.7083333333333 : 11.88125 : JumpEnd); (11.9166666666667 : 11.88125 : JumpStart); (12.0833333333333 : 11.88125 : JumpEnd); (14.5416666666667 : 11.88125 : JumpStart); (14.7083333333333 : 11.88125 : JumpEnd); (16.6354166666667 : 11.88125 : JumpStart); (16.8020833333333 : 11.88125 : JumpEnd); (18.4791666666667 : 11.88125 : JumpStart); (18.6458333333333 : 11.88125 : JumpEnd); (19.3854166666667 : 11.88125 : JumpStart); (19.5520833333333 : 11.88125 : JumpEnd); (21.75 : 11.88125); (21.75 : 14.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblWifeHusband" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="c7250bab-95e9-4939-a434-34c6c5c7fef3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25488515625 : 14.9823225911458); (5.25488515625 : 32.475); (6.25 : 32.475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblWorkShop" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="8e28a441-e83d-411f-b223-6c8c64e6390c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.60156125 : 14.9823225911458); (4.60156125 : 17.921876); (6.5 : 17.921876)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblEmployee" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 14.08125); (11.4166666666667 : 14.08125 : JumpStart); (11.5833333333333 : 14.08125 : JumpEnd); (12.25 : 14.08125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblFamilyMember" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="30a9bb35-9691-4483-bf01-c34ca0633ea1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 10.1); (3.30729166666667 : 10.1 : JumpStart); (3.47395833333333 : 10.1 : JumpEnd); (3.75 : 10.1)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblBlood/TblBlood_TblApplicant" />
+      <nodes>
+        <classShapeMoniker Id="043ac492-c661-49c5-bb6f-66b5bda86382" />
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.375 : 14.45); (1.375 : 14.8411612955729); (3.75 : 14.8411612955729)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblStatus/TblStatus_TblApplicant" />
+      <nodes>
+        <classShapeMoniker Id="150fbbf8-397f-4389-8e1b-d84a10c40094" />
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5480a79a-fa30-4298-8138-ce93d538e8e6" absoluteBounds="2.5, 24.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LqHRDataContext/TblEmployeeSalary2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2512991-a4a2-4858-9e9f-89b22cbdec5c" absoluteBounds="2.515, 25.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 17.921876); (5.33821848958333 : 17.921876 : JumpStart); (5.05143197916667 : 17.921876 : JumpEnd); (4.38020583333333 : 17.921876 : JumpStart); (4.21353916666667 : 17.921876 : JumpEnd); (3.42968625 : 17.921876); (3.42968625 : 24.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblEmployee/TblEmployee_TblEmployeeSalary2" />
+      <nodes>
+        <classShapeMoniker Id="fcbb3968-9450-4761-90de-1c49a1805e9d" />
+        <classShapeMoniker Id="5480a79a-fa30-4298-8138-ce93d538e8e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 23.3469962565104); (3.34635291666667 : 23.3469962565104 : JumpStart); (3.51301958333333 : 23.3469962565104 : JumpEnd); (3.996095625 : 23.3469962565104); (3.996095625 : 24.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblSalaryCategory/TblSalaryCategory_TblEmployeeSalary2" />
+      <nodes>
+        <classShapeMoniker Id="375d2605-ec50-4dde-b817-f7083be53fdb" />
+        <classShapeMoniker Id="5480a79a-fa30-4298-8138-ce93d538e8e6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5d7eb3e6-ccf4-40d7-9a8c-39f3a7e52349" absoluteBounds="10.5, 34.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LqHRDataContext/TblTrainee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cee12c10-f0e2-49ab-8d31-6e04b42229b2" absoluteBounds="10.515, 34.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.25 : 36.0208968098958); (11.25 : 36.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblTrainee/TblTrainee_TblTraineeLecture" />
+      <nodes>
+        <classShapeMoniker Id="5d7eb3e6-ccf4-40d7-9a8c-39f3a7e52349" />
+        <classShapeMoniker Id="4ba17b29-864d-4d73-8512-5659743b7b29" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5 : 35.1354484049479); (9.02083333333333 : 35.1354484049479 : JumpStart); (8.85416666666667 : 35.1354484049479 : JumpEnd); (6.125 : 35.1354484049479); (6.125 : 26.825); (6.44791691666667 : 26.825 : JumpStart); (6.61458358333333 : 26.825 : JumpEnd); (7.54166666666667 : 26.825 : JumpStart); (7.70833333333333 : 26.825 : JumpEnd); (7.75 : 26.825); (7.75 : 24.2); (6.86458333333333 : 24.2 : JumpStart); (6.54166666666667 : 24.2 : JumpEnd); (6.45833333333333 : 24.2 : JumpStart); (6.29166666666667 : 24.2 : JumpEnd); (5.875 : 24.2); (5.875 : 4.2); (6.01041666666667 : 4.2 : JumpStart); (6.17708333333333 : 4.2 : JumpEnd); (6.88541616666667 : 4.2 : JumpStart); (7.05208283333333 : 4.2 : JumpEnd); (7.875 : 4.2); (7.875 : 3.2); (6 : 3.2); (6 : 1.325); (7.0624995 : 1.325); (7.0624995 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblTrainee/TblTrainee_TblTraineePerformanceAppraisal" />
+      <nodes>
+        <classShapeMoniker Id="5d7eb3e6-ccf4-40d7-9a8c-39f3a7e52349" />
+        <classShapeMoniker Id="55ccfec1-f1aa-4ba7-813f-f0c56f0623d1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.8105484375 : 14.9823225911458); (4.8105484375 : 34.661471702474); (5.66666666666667 : 34.661471702474 : JumpStart); (5.83333333333333 : 34.661471702474 : JumpEnd); (8.85416666666667 : 34.661471702474 : JumpStart); (9.02083333333333 : 34.661471702474 : JumpEnd); (10.5 : 34.661471702474)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblApplicant/TblApplicant_TblTrainee" />
+      <nodes>
+        <classShapeMoniker Id="4004ecde-1670-4840-b86b-980dec3d46d0" />
+        <classShapeMoniker Id="5d7eb3e6-ccf4-40d7-9a8c-39f3a7e52349" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 1.368752); (11.25 : 1.368752); (11.25 : 9); (11.5 : 9); (11.5 : 24.5); (11.25 : 24.5); (11.25 : 26.25); (11.75 : 26.25); (11.75 : 29.625); (11.375 : 29.625); (11.375 : 33.875); (11.5 : 33.875); (11.5 : 34.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LqHRDataContext/TblDepartment/TblDepartment_TblTrainee" />
+      <nodes>
+        <classShapeMoniker Id="cce8e637-a02b-4c8e-992b-af7396ecd672" />
+        <classShapeMoniker Id="5d7eb3e6-ccf4-40d7-9a8c-39f3a7e52349" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

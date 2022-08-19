@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="HR.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="HR.My.MySettings.HRMSConnectionString" connectionString="Data Source=MAINSERVER\SQL2012;Initial Catalog=HRMS;User ID=sa;Password=P@ssw0rd"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.EmailConnectionString" connectionString="Data Source=MAINSERVER\SQL2012;Initial Catalog=Email;Persist Security Info=True;User ID=sa;Password=P@ssw0rd"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.EmailConnectionString1" connectionString="Data Source=.;Initial Catalog=Email;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.TasksDBConnectionString" connectionString="Data Source=.;Initial Catalog=TasksDB;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.NotesDBConnectionString" connectionString="Data Source=.;Initial Catalog=NotesDB;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.HRMSConnectionString1" connectionString="Data Source=.;Initial Catalog=HRMS;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.HRMSConnectionString2" connectionString="Data Source=DESKTOP-1O6SC07\SQLSERVER2012;Initial Catalog=HRMS;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+        <add name="HR.My.MySettings.HRMSConnectionString3" connectionString="Data Source=DESKTOP-BL68VM2\SQLSERVER2012;Initial Catalog=HRMS;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup>
+        
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0,Profile=Client"/></startup>
+    <userSettings>
+        <HR.My.MySettings>
+            <setting name="LocX" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="LocY" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="SizeX" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="SizeY" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="FormBackgroundColor" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="PanelColor" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Username" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Password" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Note" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="YellowStickyNote" serializeAs="String">
+                <value>255, 255, 20</value>
+            </setting>
+            <setting name="YellowLightStickyNote" serializeAs="String">
+                <value>255, 255, 137</value>
+            </setting>
+            <setting name="BlueStickyNote" serializeAs="String">
+                <value>38, 201, 222</value>
+            </setting>
+            <setting name="BlueLightStickyNote" serializeAs="String">
+                <value>140, 226, 238</value>
+            </setting>
+            <setting name="GreenStickyNote" serializeAs="String">
+                <value>154, 219, 42</value>
+            </setting>
+            <setting name="GreenLightStickyNote" serializeAs="String">
+                <value>194, 233, 126</value>
+            </setting>
+            <setting name="PinkStickyNote" serializeAs="String">
+                <value>222, 38, 201</value>
+            </setting>
+            <setting name="PinkLightStickyNote" serializeAs="String">
+                <value>238, 140, 226</value>
+            </setting>
+            <setting name="IsOpenMailPanel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsOpenCalendarPanel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsOpenTasksPanel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsOpenNotesPanel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IsOpenFoldersPanel" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="NavIsHided" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Emailhostname" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailType" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailInteractionType" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailAutenticationType" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailUsername" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailLogin" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EmailPassword" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SignedIn" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="EmailOtherhostname" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SelectedAccount" serializeAs="String">
+                <value />
+            </setting>
+        </HR.My.MySettings>
+    </userSettings>
+</configuration>

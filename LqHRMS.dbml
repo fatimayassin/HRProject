@@ -1,0 +1,1284 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HRMS" Class="LqHRDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-1O6SC07\SQLSERVER2012;Initial Catalog=HRMS;Integrated Security=True" SettingsObjectName="HR.My.MySettings" SettingsPropertyName="HRMSConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblAddress" Member="TblAddresses">
+    <Type Name="TblAddress">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[City\Town]" Member="City_Town" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="District" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Building" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Near" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Floor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PropertyType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblApplicant_TblAddress" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblApplicantMedicalIssues" Member="TblApplicantMedicalIssues">
+    <Type Name="TblApplicantMedicalIssue">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MedicalIssueId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TblMedicalIssue_TblApplicantMedicalIssue" Member="TblMedicalIssue" ThisKey="MedicalIssueId" OtherKey="Id" Type="TblMedicalIssue" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblApplicantMedicalIssue" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblApplicantSkills" Member="TblApplicantSkills">
+    <Type Name="TblApplicantSkill">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SkillId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SkillLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblSkill_TblApplicantSkill" Member="TblSkill" ThisKey="SkillId" OtherKey="Id" Type="TblSkill" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblApplicantSkill" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblAttachments" Member="TblAttachments">
+    <Type Name="TblAttachment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Attachmment" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExpiryDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="UploadedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TblApplicant_TblAttachment" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblBlood" Member="TblBloods">
+    <Type Name="TblBlood">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblBlood_TblApplicant" Member="TblApplicants" ThisKey="Id" OtherKey="BloodId" Type="TblApplicant" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblCategory" Member="TblCategories">
+    <Type Name="TblCategory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="TblCategory_TblTask" Member="TblTasks" ThisKey="Id" OtherKey="CategoryId" Type="TblTask" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblCertificate" Member="TblCertificates">
+    <Type Name="TblCertificate">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblCertificate_TblEducation" Member="TblEducations" ThisKey="Id" OtherKey="CertificateId" Type="TblEducation" />
+      <Association Name="TblCertificate_TblRequirement" Member="TblRequirements" ThisKey="Id" OtherKey="CertificateId" Type="TblRequirement" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblContractType" Member="TblContractTypes">
+    <Type Name="TblContractType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblContractType_TblEmployeeJob" Member="TblEmployeeJobs" ThisKey="Id" OtherKey="ContractTypeId" Type="TblEmployeeJob" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblCurrency" Member="TblCurrencies">
+    <Type Name="TblCurrency">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Exchange" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblCurrency_TblExperienceHistory" Member="TblExperienceHistories" ThisKey="Id" OtherKey="CurrencyId" Type="TblExperienceHistory" />
+      <Association Name="TblCurrency_TblRequiredJob" Member="TblRequiredJobs" ThisKey="Id" OtherKey="CurrencyId" Type="TblRequiredJob" />
+      <Association Name="TblCurrency_TblEmployeeSalary" Member="TblEmployeeSalaries" ThisKey="Id" OtherKey="CurrencyId" Type="TblEmployeeSalary" />
+      <Association Name="TblCurrency_TblEmployeeSalaryHistory" Member="TblEmployeeSalaryHistories" ThisKey="Id" OtherKey="CurrencyId" Type="TblEmployeeSalaryHistory" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDepartment" Member="TblDepartments">
+    <Type Name="TblDepartment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ParentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepCategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MakeSatisfication" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CompanyProfileId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblDepartment_TblDepartment" Member="TblDepartments" ThisKey="Id" OtherKey="ParentId" Type="TblDepartment" />
+      <Association Name="TblDepartment_TblJobsPerDepartment" Member="TblJobsPerDepartments" ThisKey="Id" OtherKey="DepartmentId" Type="TblJobsPerDepartment" />
+      <Association Name="TblDepartment_TblRequiredJob" Member="TblRequiredJobs" ThisKey="Id" OtherKey="DepartmentId" Type="TblRequiredJob" />
+      <Association Name="TblDepartment_TblEmployeeJob" Member="TblEmployeeJobs" ThisKey="Id" OtherKey="DepId" Type="TblEmployeeJob" />
+      <Association Name="TblDepartment_TblJobDescription" Member="TblJobDescriptions" ThisKey="Id" OtherKey="ScheduleDepId" Type="TblJobDescription" />
+      <Association Name="TblDepartment_TblTrainee" Member="TblTrainees" ThisKey="Id" OtherKey="DepartmentId" Type="TblTrainee" />
+      <Association Name="TblDepartment_TblDepartment" Member="TblDepartment" ThisKey="ParentId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+      <Association Name="TblDepartmentCategory_TblDepartment" Member="TblDepartmentCategory" ThisKey="DepCategoryId" OtherKey="Id" Type="TblDepartmentCategory" IsForeignKey="true" />
+      <Association Name="TblDepartmentType_TblDepartment" Member="TblDepartmentType" ThisKey="TypeId" OtherKey="Id" Type="TblDepartmentType" IsForeignKey="true" />
+      <Association Name="TblCompanyProfile_TblDepartment" Member="TblCompanyProfile" ThisKey="CompanyProfileId" OtherKey="Id" Type="TblCompanyProfile" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDepartmentCategory" Member="TblDepartmentCategories">
+    <Type Name="TblDepartmentCategory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblDepartmentCategory_TblDepartment" Member="TblDepartments" ThisKey="Id" OtherKey="DepCategoryId" Type="TblDepartment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDepartmentForSchedule" Member="TblDepartmentForSchedules">
+    <Type Name="TblDepartmentForSchedule">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SupervisorJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ManagerJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblJobDescription_TblDepartmentForSchedule" Member="TblJobDescription" ThisKey="SupervisorJobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblDepartmentForSchedule1" Member="TblJobDescription1" ThisKey="ManagerJobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDepartmentType" Member="TblDepartmentTypes">
+    <Type Name="TblDepartmentType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblDepartmentType_TblDepartment" Member="TblDepartments" ThisKey="Id" OtherKey="TypeId" Type="TblDepartment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEducation" Member="TblEducations">
+    <Type Name="TblEducation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Major" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="University" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartYear" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GraduationYear" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CertificateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPA" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="TblCertificate_TblEducation" Member="TblCertificate" ThisKey="CertificateId" OtherKey="Id" Type="TblCertificate" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblEducation" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblExperienceHistory" Member="TblExperienceHistories">
+    <Type Name="TblExperienceHistory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="LeaveDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="LeaveReason" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CurrencyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="StillWorking" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanBeLeave" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ScheduleNote" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="IsNSSF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NSSFSide" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NSSFNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblCurrency_TblExperienceHistory" Member="TblCurrency" ThisKey="CurrencyId" OtherKey="Id" Type="TblCurrency" IsForeignKey="true" />
+      <Association Name="TblPosition_TblExperienceHistory" Member="TblPosition" ThisKey="PositionId" OtherKey="Id" Type="TblPosition" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblExperienceHistory" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblJobCategories" Member="TblJobCategories">
+    <Type Name="TblJobCategory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblJobCategory_TblJobDescription" Member="TblJobDescriptions" ThisKey="Id" OtherKey="JobCategoryId" Type="TblJobDescription" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblJobRequirement" Member="TblJobRequirements">
+    <Type Name="TblJobRequirement">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RequirementId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsPrimary" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TblRequirement_TblJobRequirement" Member="TblRequirement" ThisKey="RequirementId" OtherKey="Id" Type="TblRequirement" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblJobRequirement" Member="TblJobDescription" ThisKey="JobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblJobsPerDepartment" Member="TblJobsPerDepartments">
+    <Type Name="TblJobsPerDepartment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblDepartment_TblJobsPerDepartment" Member="TblDepartment" ThisKey="DepartmentId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblJobsPerDepartment" Member="TblJobDescription" ThisKey="JobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblJobTasks" Member="TblJobTasks">
+    <Type Name="TblJobTask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TaskId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RequiredForJob" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RequiredForAppraisal" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TblTask_TblJobTask" Member="TblTask" ThisKey="TaskId" OtherKey="Id" Type="TblTask" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblJobTask" Member="TblJobDescription" ThisKey="JobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblLanguages" Member="TblLanguages">
+    <Type Name="TblLanguage">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReadingLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WritingLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CommLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblApplicant_TblLanguage" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblMedicalIssue" Member="TblMedicalIssues">
+    <Type Name="TblMedicalIssue">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MedicalIssue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblMedicalIssue_TblApplicantMedicalIssue" Member="TblApplicantMedicalIssues" ThisKey="Id" OtherKey="MedicalIssueId" Type="TblApplicantMedicalIssue" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblMotivationPunishment" Member="TblMotivationPunishments">
+    <Type Name="TblMotivationPunishment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reason" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MotivationPunishmentTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsMotivation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Association Name="TblMotivationPunishmentType_TblMotivationPunishment" Member="TblMotivationPunishmentType" ThisKey="MotivationPunishmentTypeId" OtherKey="Id" Type="TblMotivationPunishmentType" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblMotivationPunishment" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblMotivationPunishmentType" Member="TblMotivationPunishmentTypes">
+    <Type Name="TblMotivationPunishmentType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblMotivationPunishmentType_TblMotivationPunishment" Member="TblMotivationPunishments" ThisKey="Id" OtherKey="MotivationPunishmentTypeId" Type="TblMotivationPunishment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPosition" Member="TblPositions">
+    <Type Name="TblPosition">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblPosition_TblExperienceHistory" Member="TblExperienceHistories" ThisKey="Id" OtherKey="PositionId" Type="TblExperienceHistory" />
+      <Association Name="TblPosition_TblSetting" Member="TblSettings" ThisKey="Id" OtherKey="TraineePositionId" Type="TblSetting" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRelativeReference" Member="TblRelativeReferences">
+    <Type Name="TblRelativeReference">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Relation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Job" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsInCompany" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RelativeReferenceEmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblEmployee_TblRelativeReference" Member="TblEmployee" ThisKey="RelativeReferenceEmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblRelativeReference" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRequiredHoursForJob" Member="TblRequiredHoursForJobs">
+    <Type Name="TblRequiredHoursForJob">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="hoursNumber" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblRequiredHoursForJob_TblJobDescription" Member="TblJobDescriptions" ThisKey="Id" OtherKey="RequiredHoursForJobId" Type="TblJobDescription" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRequiredJob" Member="TblRequiredJobs">
+    <Type Name="TblRequiredJob">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobDescriptionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExpectedSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CurrencyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WayOfWorking" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblCurrency_TblRequiredJob" Member="TblCurrency" ThisKey="CurrencyId" OtherKey="Id" Type="TblCurrency" IsForeignKey="true" />
+      <Association Name="TblDepartment_TblRequiredJob" Member="TblDepartment" ThisKey="DepartmentId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblRequiredJob" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblRequirement" Member="TblRequirements">
+    <Type Name="TblRequirement">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExperienceYears" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CertificateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MinAge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaxAge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Major" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Language" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblRequirement_TblJobRequirement" Member="TblJobRequirements" ThisKey="Id" OtherKey="RequirementId" Type="TblJobRequirement" />
+      <Association Name="TblCertificate_TblRequirement" Member="TblCertificate" ThisKey="CertificateId" OtherKey="Id" Type="TblCertificate" IsForeignKey="true" />
+      <Association Name="TblType_TblRequirement" Member="TblType" ThisKey="TypeId" OtherKey="Id" Type="TblType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblSkill" Member="TblSkills">
+    <Type Name="TblSkill">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblSkill_TblApplicantSkill" Member="TblApplicantSkills" ThisKey="Id" OtherKey="SkillId" Type="TblApplicantSkill" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblStatus" Member="TblStatus">
+    <Type Name="TblStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblStatus_TblSetting" Member="TblSettings" ThisKey="Id" OtherKey="ApplicantStatusId" Type="TblSetting" />
+      <Association Name="TblStatus_TblSetting1" Member="TblSettings1" ThisKey="Id" OtherKey="EmployeeStatusId" Type="TblSetting" />
+      <Association Name="TblStatus_TblSetting2" Member="TblSettings2" ThisKey="Id" OtherKey="RetiredStatusId" Type="TblSetting" />
+      <Association Name="TblStatus_TblSetting3" Member="TblSettings3" ThisKey="Id" OtherKey="TraineeStatutsId" Type="TblSetting" />
+      <Association Name="TblStatus_TblSetting4" Member="TblSettings4" ThisKey="Id" OtherKey="UnemploymentStatusId" Type="TblSetting" />
+      <Association Name="TblStatus_TblApplicant" Member="TblApplicants" ThisKey="Id" OtherKey="StatusId" Type="TblApplicant" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblTask" Member="TblTasks">
+    <Type Name="TblTask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblTask_TblJobTask" Member="TblJobTasks" ThisKey="Id" OtherKey="TaskId" Type="TblJobTask" />
+      <Association Name="TblTask_TblAveragePAPerTask" Member="TblAveragePAPerTasks" ThisKey="Id" OtherKey="TaskId" Type="TblAveragePAPerTask" />
+      <Association Name="TblCategory_TblTask" Member="TblCategory" ThisKey="CategoryId" OtherKey="Id" Type="TblCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblType" Member="TblTypes">
+    <Type Name="TblType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblType_TblRequirement" Member="TblRequirements" ThisKey="Id" OtherKey="TypeId" Type="TblRequirement" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblUser" Member="TblUsers">
+    <Type Name="TblUser">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastSeen" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ComputerName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblEmployee_TblUser" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblWifeHusband" Member="TblWifeHusbands">
+    <Type Name="TblWifeHusband">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Job" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsNSSF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NSSFSide" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="InCompany" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="WifeHusbandEmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblEmployee_TblWifeHusband" Member="TblEmployee" ThisKey="WifeHusbandEmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblWifeHusband" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblWorkShop" Member="TblWorkShops">
+    <Type Name="TblWorkShop">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Organization" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblApplicant_TblWorkShop" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployee" Member="TblEmployees">
+    <Type Name="TblEmployee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BatchNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PIN" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardLabelName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardQr1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CardQr2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Qr1" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Qr2" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="FP" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FPIndex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FPFlag" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblEmployee_TblMotivationPunishment" Member="TblMotivationPunishments" ThisKey="Id" OtherKey="EmployeeId" Type="TblMotivationPunishment" />
+      <Association Name="TblEmployee_TblRelativeReference" Member="TblRelativeReferences" ThisKey="Id" OtherKey="RelativeReferenceEmployeeId" Type="TblRelativeReference" />
+      <Association Name="TblEmployee_TblUser" Member="TblUsers" ThisKey="Id" OtherKey="EmployeeId" Type="TblUser" />
+      <Association Name="TblEmployee_TblWifeHusband" Member="TblWifeHusbands" ThisKey="Id" OtherKey="WifeHusbandEmployeeId" Type="TblWifeHusband" />
+      <Association Name="TblEmployee_TblLeavePermission" Member="TblLeavePermissions" ThisKey="Id" OtherKey="EmployeeId" Type="TblLeavePermission" />
+      <Association Name="TblEmployee_TblLeavePermission1" Member="TblLeavePermissions1" ThisKey="Id" OtherKey="RespondedById" Type="TblLeavePermission" />
+      <Association Name="TblEmployee_TblEmployeePA" Member="TblEmployeePAs" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeePA" />
+      <Association Name="TblEmployee_TblEmployeePA1" Member="TblEmployeePAs1" ThisKey="Id" OtherKey="EvaluatedById" Type="TblEmployeePA" />
+      <Association Name="TblEmployee_TblEmployeeHoliday" Member="TblEmployeeHolidays" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeeHoliday" />
+      <Association Name="TblEmployee_TblVacationsHolidaysDashBoard" Member="TblVacationsHolidaysDashBoards" ThisKey="Id" OtherKey="EmployeeId" Type="TblVacationsHolidaysDashBoard" />
+      <Association Name="TblEmployee_TblEmployeeVacation" Member="TblEmployeeVacations" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeeVacation" />
+      <Association Name="TblEmployee_TblEmployeeJob" Member="TblEmployeeJobs" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeeJob" />
+      <Association Name="TblEmployee_TblEmployeeJob1" Member="TblEmployeeJobs1" ThisKey="Id" OtherKey="DeligatedBy" Type="TblEmployeeJob" />
+      <Association Name="TblEmployee_TblEmployeeSalary" Member="TblEmployeeSalaries" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeeSalary" />
+      <Association Name="TblEmployee_TblFamilyMember" Member="TblFamilyMembers" ThisKey="Id" OtherKey="FamilyMemberEmployeeId" Type="TblFamilyMember" />
+      <Association Name="TblEmployee_TblEmployeeSalaryHistory" Member="TblEmployeeSalaryHistories" ThisKey="Id" OtherKey="EmployeeId" Type="TblEmployeeSalaryHistory" />
+      <Association Name="TblEmployee_TblEmployeeSalary2" Member="TblEmployeeSalary2s" ThisKey="Id" OtherKey="EmployeeID" Type="TblEmployeeSalary2" />
+      <Association Name="TblApplicant_TblEmployee" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblLeavePermission" Member="TblLeavePermissions">
+    <Type Name="TblLeavePermission">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Reason" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Accepted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RespondedById" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RespondDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isBusiness" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TblEmployee_TblLeavePermission" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblLeavePermission1" Member="TblEmployee1" ThisKey="RespondedById" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblTraineeLectures" Member="TblTraineeLectures">
+    <Type Name="TblTraineeLecture">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TraineeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LectureId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TblLecture_TblTraineeLecture" Member="TblLecture" ThisKey="LectureId" OtherKey="Id" Type="TblLecture" IsForeignKey="true" />
+      <Association Name="TblTrainee_TblTraineeLecture" Member="TblTrainee" ThisKey="TraineeId" OtherKey="Id" Type="TblTrainee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblLectures" Member="TblLectures">
+    <Type Name="TblLecture">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Duration" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblLecture_TblTraineeLecture" Member="TblTraineeLectures" ThisKey="Id" OtherKey="LectureId" Type="TblTraineeLecture" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPAForTraineer" Member="TblPAForTraineers">
+    <Type Name="TblPAForTraineer">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblPAForTraineer_TblTraineePerformanceAppraisal" Member="TblTraineePerformanceAppraisals" ThisKey="id" OtherKey="PAforTraineeId" Type="TblTraineePerformanceAppraisal" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblTraineePerformanceAppraisal" Member="TblTraineePerformanceAppraisals">
+    <Type Name="TblTraineePerformanceAppraisal">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TrainneId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAforTraineeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Grade" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblPAForTraineer_TblTraineePerformanceAppraisal" Member="TblPAForTraineer" ThisKey="PAforTraineeId" OtherKey="id" Type="TblPAForTraineer" IsForeignKey="true" />
+      <Association Name="TblTrainee_TblTraineePerformanceAppraisal" Member="TblTrainee" ThisKey="TrainneId" OtherKey="Id" Type="TblTrainee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPAForEmployee" Member="TblPAForEmployees">
+    <Type Name="TblPAForEmployee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Version" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="TblPAForEmployee_TblPAPerJob" Member="TblPAPerJobs" ThisKey="Id" OtherKey="PAId" Type="TblPAPerJob" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPAPerJob" Member="TblPAPerJobs">
+    <Type Name="TblPAPerJob">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PAId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblPAForEmployee_TblPAPerJob" Member="TblPAForEmployee" ThisKey="PAId" OtherKey="Id" Type="TblPAForEmployee" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblPAPerJob" Member="TblJobDescription" ThisKey="JobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblAveragePAPerTask" Member="TblAveragePAPerTasks">
+    <Type Name="TblAveragePAPerTask">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PAPerJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TaskId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblAveragePAPerTask_TblEmployeePA" Member="TblEmployeePAs" ThisKey="Id" OtherKey="AveragePAPerTaskId" Type="TblEmployeePA" />
+      <Association Name="TblTask_TblAveragePAPerTask" Member="TblTask" ThisKey="TaskId" OtherKey="Id" Type="TblTask" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeePA" Member="TblEmployeePAs">
+    <Type Name="TblEmployeePA">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AveragePAPerTaskId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Ratio" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EvaluatedById" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EvaluatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="TblAveragePAPerTask_TblEmployeePA" Member="TblAveragePAPerTask" ThisKey="AveragePAPerTaskId" OtherKey="Id" Type="TblAveragePAPerTask" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeePA" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeePA1" Member="TblEmployee1" ThisKey="EvaluatedById" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblCompanyProfile" Member="TblCompanyProfiles">
+    <Type Name="TblCompanyProfile">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Website" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Purpose" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Attachment" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="TblCompanyProfile_TblDepartment" Member="TblDepartments" ThisKey="Id" OtherKey="CompanyProfileId" Type="TblDepartment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblYearlyVacations" Member="TblYearlyVacations">
+    <Type Name="TblYearlyVacation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="VacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MinYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaxYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblVacation_TblYearlyVacation" Member="TblVacation" ThisKey="VacationId" OtherKey="Id" Type="TblVacation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblVacations" Member="TblVacations">
+    <Type Name="TblVacation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblVacation_TblYearlyVacation" Member="TblYearlyVacations" ThisKey="Id" OtherKey="VacationId" Type="TblYearlyVacation" />
+      <Association Name="TblVacation_TblEmployeeVacation" Member="TblEmployeeVacations" ThisKey="Id" OtherKey="VacationId" Type="TblEmployeeVacation" />
+      <Association Name="TblVacation_TblSetting" Member="TblSettings" ThisKey="Id" OtherKey="YearlyVacationId" Type="TblSetting" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblHolidays" Member="TblHolidays">
+    <Type Name="TblHoliday">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblHoliday_TblEmployeeHoliday" Member="TblEmployeeHolidays" ThisKey="Id" OtherKey="HolidayId" Type="TblEmployeeHoliday" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeHolidays" Member="TblEmployeeHolidays">
+    <Type Name="TblEmployeeHoliday">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HolidayId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="TblEmployee_TblEmployeeHoliday" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblHoliday_TblEmployeeHoliday" Member="TblHoliday" ThisKey="HolidayId" OtherKey="Id" Type="TblHoliday" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblExecuteVacationsDays" Member="TblExecuteVacationsDays">
+    <Type Name="TblExecuteVacationsDay">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeVacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblEmployeeVacation_TblExecuteVacationsDay" Member="TblEmployeeVacation" ThisKey="EmployeeVacationId" OtherKey="Id" Type="TblEmployeeVacation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblVacationsHolidaysDashBoard" Member="TblVacationsHolidaysDashBoards">
+    <Type Name="TblVacationsHolidaysDashBoard">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VacationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsVacation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ExecutionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblEmployee_TblVacationsHolidaysDashBoard" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeVacations" Member="TblEmployeeVacations">
+    <Type Name="TblEmployeeVacation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblEmployeeVacation_TblExecuteVacationsDay" Member="TblExecuteVacationsDays" ThisKey="Id" OtherKey="EmployeeVacationId" Type="TblExecuteVacationsDay" />
+      <Association Name="TblEmployee_TblEmployeeVacation" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblVacation_TblEmployeeVacation" Member="TblVacation" ThisKey="VacationId" OtherKey="Id" Type="TblVacation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeJob" Member="TblEmployeeJobs">
+    <Type Name="TblEmployeeJob">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateOfEmployment" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LeaveDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ContractTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeligatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Deligated" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DeligatedOn" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DontShowInSchedule" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="JobTitleCardLabel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeDegreeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblContractType_TblEmployeeJob" Member="TblContractType" ThisKey="ContractTypeId" OtherKey="Id" Type="TblContractType" IsForeignKey="true" />
+      <Association Name="TblDepartment_TblEmployeeJob" Member="TblDepartment" ThisKey="DepId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeeJob" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeeJob1" Member="TblEmployee1" ThisKey="DeligatedBy" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblEmployeeJob" Member="TblJobDescription" ThisKey="JobId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+      <Association Name="TblDegree_TblEmployeeJob" Member="TblDegree" ThisKey="EmployeeDegreeId" OtherKey="Id" Type="TblDegree" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblJobDescription" Member="TblJobDescriptions">
+    <Type Name="TblJobDescription">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SupervisorId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobCategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScheduleDepId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultCardLabelName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCard" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCardFemale" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="RequiredHoursForJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ClassificantionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblJobDescription_TblDepartmentForSchedule" Member="TblDepartmentForSchedules" ThisKey="Id" OtherKey="SupervisorJobId" Type="TblDepartmentForSchedule" />
+      <Association Name="TblJobDescription_TblDepartmentForSchedule1" Member="TblDepartmentForSchedules1" ThisKey="Id" OtherKey="ManagerJobId" Type="TblDepartmentForSchedule" />
+      <Association Name="TblJobDescription_TblJobRequirement" Member="TblJobRequirements" ThisKey="Id" OtherKey="JobId" Type="TblJobRequirement" />
+      <Association Name="TblJobDescription_TblJobsPerDepartment" Member="TblJobsPerDepartments" ThisKey="Id" OtherKey="JobId" Type="TblJobsPerDepartment" />
+      <Association Name="TblJobDescription_TblJobTask" Member="TblJobTasks" ThisKey="Id" OtherKey="JobId" Type="TblJobTask" />
+      <Association Name="TblJobDescription_TblPAPerJob" Member="TblPAPerJobs" ThisKey="Id" OtherKey="JobId" Type="TblPAPerJob" />
+      <Association Name="TblJobDescription_TblEmployeeJob" Member="TblEmployeeJobs" ThisKey="Id" OtherKey="JobId" Type="TblEmployeeJob" />
+      <Association Name="TblJobDescription_TblJobDescription" Member="TblJobDescriptions" ThisKey="Id" OtherKey="SupervisorId" Type="TblJobDescription" />
+      <Association Name="TblDepartment_TblJobDescription" Member="TblDepartment" ThisKey="ScheduleDepId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+      <Association Name="TblJobCategory_TblJobDescription" Member="TblJobCategory" ThisKey="JobCategoryId" OtherKey="Id" Type="TblJobCategory" IsForeignKey="true" />
+      <Association Name="TblJobDescription_TblJobDescription" Member="TblJobDescription" ThisKey="SupervisorId" OtherKey="Id" Type="TblJobDescription" IsForeignKey="true" />
+      <Association Name="TblRequiredHoursForJob_TblJobDescription" Member="TblRequiredHoursForJob" ThisKey="RequiredHoursForJobId" OtherKey="Id" Type="TblRequiredHoursForJob" IsForeignKey="true" />
+      <Association Name="TblClassification_TblJobDescription" Member="TblClassification" ThisKey="ClassificantionId" OtherKey="Id" Type="TblClassification" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblClassification" Member="TblClassifications">
+    <Type Name="TblClassification">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblClassification_TblJobDescription" Member="TblJobDescriptions" ThisKey="Id" OtherKey="ClassificantionId" Type="TblJobDescription" />
+      <Association Name="TblClassification_TblDegree" Member="TblDegrees" ThisKey="Id" OtherKey="ClassificationId" Type="TblDegree" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDegree" Member="TblDegrees">
+    <Type Name="TblDegree">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ClassificationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="TblDegree_TblEmployeeJob" Member="TblEmployeeJobs" ThisKey="Id" OtherKey="EmployeeDegreeId" Type="TblEmployeeJob" />
+      <Association Name="TblClassification_TblDegree" Member="TblClassification" ThisKey="ClassificationId" OtherKey="Id" Type="TblClassification" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblMonths" Member="TblMonths">
+    <Type Name="TblMonth">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblMonth_TblMonthsPerYear" Member="TblMonthsPerYears" ThisKey="Id" OtherKey="MonthId" Type="TblMonthsPerYear" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeSalary" Member="TblEmployeeSalaries">
+    <Type Name="TblEmployeeSalary">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NSSFSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="FamilySalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="transPerDay" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OvertimeValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceIn" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceOut" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PositionValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="IsCash" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ClosedArea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrencyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblCurrency_TblEmployeeSalary" Member="TblCurrency" ThisKey="CurrencyId" OtherKey="Id" Type="TblCurrency" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeeSalary" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblYear" Member="TblYears">
+    <Type Name="TblYear">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblYear_TblMonthsPerYear" Member="TblMonthsPerYears" ThisKey="Id" OtherKey="YearId" Type="TblMonthsPerYear" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblMonthsPerYear" Member="TblMonthsPerYears">
+    <Type Name="TblMonthsPerYear">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MonthId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YearId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Posted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Locked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PostNote" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TransId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaymentTransId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblMonthsPerYear_TblEmployeeSalaryHistory" Member="TblEmployeeSalaryHistories" ThisKey="Id" OtherKey="MonthPerYearId" Type="TblEmployeeSalaryHistory" />
+      <Association Name="TblMonth_TblMonthsPerYear" Member="TblMonth" ThisKey="MonthId" OtherKey="Id" Type="TblMonth" IsForeignKey="true" />
+      <Association Name="TblYear_TblMonthsPerYear" Member="TblYear" ThisKey="YearId" OtherKey="Id" Type="TblYear" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblFamilyMember" Member="TblFamilyMembers">
+    <Type Name="TblFamilyMember">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsWorking" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FamilyMemberEmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsMarried" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TblEmployee_TblFamilyMember" Member="TblEmployee" ThisKey="FamilyMemberEmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblApplicant_TblFamilyMember" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeSalaryHistory" Member="TblEmployeeSalaryHistories">
+    <Type Name="TblEmployeeSalaryHistory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MonthPerYearId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NSSFSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Excellence" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="FamilySalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TransPerDay" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OvertimeHrs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OvertimeValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceIn" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceOut" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PositionValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OtherPlus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OtherMinus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SchoolValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Credit" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Absence" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Bonus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ClosedArea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Speciality" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="IsCash" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Old" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CurrencyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TransDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IncomeTax" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CashMethod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IncDaman" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="TblCurrency_TblEmployeeSalaryHistory" Member="TblCurrency" ThisKey="CurrencyId" OtherKey="Id" Type="TblCurrency" IsForeignKey="true" />
+      <Association Name="TblEmployee_TblEmployeeSalaryHistory" Member="TblEmployee" ThisKey="EmployeeId" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblMonthsPerYear_TblEmployeeSalaryHistory" Member="TblMonthsPerYear" ThisKey="MonthPerYearId" OtherKey="Id" Type="TblMonthsPerYear" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblUnits" Member="TblUnits">
+    <Type Name="TblUnit">
+      <Column Name="UnitID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblSalaryCategories" Member="TblSalaryCategories">
+    <Type Name="TblSalaryCategory">
+      <Column Name="SalaryCatID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SalaryCategory" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="TblSalaryCategory_TblEmployeeSalary2" Member="TblEmployeeSalary2s" ThisKey="SalaryCatID" OtherKey="SalaryCatID" Type="TblEmployeeSalary2" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblSetting" Member="TblSettings">
+    <Type Name="TblSetting">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicantStatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeStatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TraineeStatutsId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UnemploymentStatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RetiredStatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HolidayTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YearlyVacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TraineePositionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultImage" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="TblPosition_TblSetting" Member="TblPosition" ThisKey="TraineePositionId" OtherKey="Id" Type="TblPosition" IsForeignKey="true" />
+      <Association Name="TblStatus_TblSetting" Member="TblStatus" ThisKey="ApplicantStatusId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+      <Association Name="TblStatus_TblSetting1" Member="TblStatus1" ThisKey="EmployeeStatusId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+      <Association Name="TblStatus_TblSetting2" Member="TblStatus2" ThisKey="RetiredStatusId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+      <Association Name="TblStatus_TblSetting3" Member="TblStatus3" ThisKey="TraineeStatutsId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+      <Association Name="TblStatus_TblSetting4" Member="TblStatus4" ThisKey="UnemploymentStatusId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+      <Association Name="TblVacation_TblSetting" Member="TblVacation" ThisKey="YearlyVacationId" OtherKey="Id" Type="TblVacation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblApplicant" Member="TblApplicants">
+    <Type Name="TblApplicant">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumberOfKids" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BloodId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicationDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MotherName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlaceOfBirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RecordNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RecordPlace" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mohafaza" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Kadaa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicantNumber" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Association Name="TblApplicant_TblAddress" Member="TblAddresses" ThisKey="Id" OtherKey="ApplicantId" Type="TblAddress" />
+      <Association Name="TblApplicant_TblApplicantMedicalIssue" Member="TblApplicantMedicalIssues" ThisKey="Id" OtherKey="ApplicantId" Type="TblApplicantMedicalIssue" />
+      <Association Name="TblApplicant_TblApplicantSkill" Member="TblApplicantSkills" ThisKey="Id" OtherKey="ApplicantId" Type="TblApplicantSkill" />
+      <Association Name="TblApplicant_TblAttachment" Member="TblAttachments" ThisKey="Id" OtherKey="ApplicantId" Type="TblAttachment" />
+      <Association Name="TblApplicant_TblEducation" Member="TblEducations" ThisKey="Id" OtherKey="ApplicantId" Type="TblEducation" />
+      <Association Name="TblApplicant_TblExperienceHistory" Member="TblExperienceHistories" ThisKey="Id" OtherKey="ApplicantId" Type="TblExperienceHistory" />
+      <Association Name="TblApplicant_TblLanguage" Member="TblLanguages" ThisKey="Id" OtherKey="ApplicantId" Type="TblLanguage" />
+      <Association Name="TblApplicant_TblRelativeReference" Member="TblRelativeReferences" ThisKey="Id" OtherKey="ApplicantId" Type="TblRelativeReference" />
+      <Association Name="TblApplicant_TblRequiredJob" Member="TblRequiredJobs" ThisKey="Id" OtherKey="ApplicantId" Type="TblRequiredJob" />
+      <Association Name="TblApplicant_TblWifeHusband" Member="TblWifeHusbands" ThisKey="Id" OtherKey="ApplicantId" Type="TblWifeHusband" />
+      <Association Name="TblApplicant_TblWorkShop" Member="TblWorkShops" ThisKey="Id" OtherKey="ApplicantId" Type="TblWorkShop" />
+      <Association Name="TblApplicant_TblEmployee" Member="TblEmployees" ThisKey="Id" OtherKey="ApplicantId" Type="TblEmployee" />
+      <Association Name="TblApplicant_TblFamilyMember" Member="TblFamilyMembers" ThisKey="Id" OtherKey="ApplicantId" Type="TblFamilyMember" />
+      <Association Name="TblApplicant_TblTrainee" Member="TblTrainees" ThisKey="Id" OtherKey="ApplicantId" Type="TblTrainee" />
+      <Association Name="TblBlood_TblApplicant" Member="TblBlood" ThisKey="BloodId" OtherKey="Id" Type="TblBlood" IsForeignKey="true" />
+      <Association Name="TblStatus_TblApplicant" Member="TblStatus" ThisKey="StatusId" OtherKey="Id" Type="TblStatus" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblEmployeeSalary2" Member="TblEmployeeSalary2s">
+    <Type Name="TblEmployeeSalary2">
+      <Column Name="EmployeeSalaryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SalaryCatID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Value" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="TblEmployee_TblEmployeeSalary2" Member="TblEmployee" ThisKey="EmployeeID" OtherKey="Id" Type="TblEmployee" IsForeignKey="true" />
+      <Association Name="TblSalaryCategory_TblEmployeeSalary2" Member="TblSalaryCategory" ThisKey="SalaryCatID" OtherKey="SalaryCatID" Type="TblSalaryCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblTrainee" Member="TblTrainees">
+    <Type Name="TblTrainee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TblTrainee_TblTraineeLecture" Member="TblTraineeLectures" ThisKey="Id" OtherKey="TraineeId" Type="TblTraineeLecture" />
+      <Association Name="TblTrainee_TblTraineePerformanceAppraisal" Member="TblTraineePerformanceAppraisals" ThisKey="Id" OtherKey="TrainneId" Type="TblTraineePerformanceAppraisal" />
+      <Association Name="TblApplicant_TblTrainee" Member="TblApplicant" ThisKey="ApplicantId" OtherKey="Id" Type="TblApplicant" IsForeignKey="true" />
+      <Association Name="TblDepartment_TblTrainee" Member="TblDepartment" ThisKey="DepartmentId" OtherKey="Id" Type="TblDepartment" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Filter_JobsPerDepartment" Method="Filter_JobsPerDepartment">
+    <Parameter Name="JobNumber" Parameter="jobNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ArabicName" Parameter="arabicName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="supervisorId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CatId" Parameter="catId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ScheduleDepId" Parameter="scheduleDepId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="RequiredHrsId" Parameter="requiredHrsId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Filter_JobsPerDepartmentResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SupervisorId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobCategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScheduleDepId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultCardLabelName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCard" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCardFemale" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="RequiredHoursForJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_SickVactApproval" Method="Filter_SickVactApproval">
+    <Parameter Name="EmployeeName" Parameter="employeeName" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="NbOfDate" Parameter="nbOfDate" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Reason" Parameter="reason" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Note" Parameter="note" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="DateFrom" Parameter="dateFrom" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateTo" Parameter="dateTo" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Accepted" Parameter="accepted" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="Filter_SickVactApprovalResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Reason" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Accepted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RespondedById" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RespondDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_PersonalVacationApproval" Method="Filter_PersonalVacationApproval">
+    <Parameter Name="EmployeeName" Parameter="employeeName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="VacationType" Parameter="vacationType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DateFrom1" Parameter="dateFrom1" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateTo1" Parameter="dateTo1" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateFrom2" Parameter="dateFrom2" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateTo2" Parameter="dateTo2" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateFrom3" Parameter="dateFrom3" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateTo3" Parameter="dateTo3" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Note" Parameter="note" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Accepted" Parameter="accepted" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="Filter_PersonalVacationApprovalResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PersonalVacationTypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateFrom" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DateTo" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Accepted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RespondedById" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RespondDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_LeavePermissionApproval" Method="Filter_LeavePermissionApproval">
+    <Parameter Name="EmplName" Parameter="emplName" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="DateFrom" Parameter="dateFrom" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DateTo" Parameter="dateTo" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Reason" Parameter="reason" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="Note" Parameter="note" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="Accepted" Parameter="accepted" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="Filter_LeavePermissionApprovalResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Reason" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Accepted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RespondedById" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RespondDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_AssigndDepsToJob" Method="Filter_AssigndDepsToJob">
+    <Parameter Name="JobNumber" Parameter="jobNumber" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ArabicName" Parameter="arabicName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Supervisor" Parameter="supervisor" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Category" Parameter="category" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ScheduleDep" Parameter="scheduleDep" Type="System.Int32" DbType="Int" />
+    <Parameter Name="RequiredHours" Parameter="requiredHours" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Filter_AssigndDepsToJobResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SupervisorId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobCategoryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScheduleDepId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultCardLabelName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCard" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="DefaultJobNameForCardFemale" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="RequiredHoursForJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_VactionsHolidaysDashBoard" Method="Filter_VactionsHolidaysDashBoard">
+    <Parameter Name="EmpName" Parameter="empName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Year" Parameter="year" Type="System.Int32" DbType="Int" />
+    <Parameter Name="VactionDateTo" Parameter="vactionDateTo" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="VactionDateFrom" Parameter="vactionDateFrom" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ExcutedDays" Parameter="excutedDays" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NbOfDays" Parameter="nbOfDays" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsVact" Parameter="isVact" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="Filter_VactionsHolidaysDashBoardResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BatchNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PIN" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardLabelName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardQr1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CardQr2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Qr1" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+      <Column Name="Qr2" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+      <Column Name="FP" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FPIndex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FPFlag" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Id1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VacationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsVacation" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ExecutionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Expr2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AssignHolidaysToEmplyee" Method="AssignHolidaysToEmplyee">
+    <Parameter Name="EmployeeId" Parameter="employeeId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AssignYearlyVacationsToEmployee" Method="AssignYearlyVacationsToEmployee">
+    <Parameter Name="DateOfNow" Parameter="dateOfNow" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="AssignYearlyVacationsToEmployeeResult">
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VacationId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VacationDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="NumberOfDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AveragePAPerTaskForEmployee" Method="AveragePAPerTaskForEmployee">
+    <Parameter Name="EmployeeId" Parameter="employeeId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="AveragePAPerTaskForEmployeeResult">
+      <Column Name="employeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PAPerJobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AvgPAPerTaskId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TaskName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Ratio" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PAName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UnionAllHolidaysAndVacations" Method="UnionAllHolidaysAndVacations">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CreateEmployeeHistory" Method="CreateEmployeeHistory">
+    <Parameter Name="MonthPerYearId" Parameter="monthPerYearId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Filter_EmployeeJobSalaryDetails" Method="Filter_EmployeeJobSalaryDetails">
+    <Parameter Name="EmpName" Parameter="empName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="DepName" Parameter="depName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobName" Parameter="jobName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CurrencyId" Parameter="currencyId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Filter_EmployeeJobSalaryDetailsResult">
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="JobName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NSSFSalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="FamilySalary" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OvertimeValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="transPerDay" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceIn" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ExperienceOut" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PositionValue" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="IsCash" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ClosedArea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrencyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CurrencyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClassificantionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DegreeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.MonthsPerYear" Method="MonthsPerYear">
+    <Parameter Name="YearId" Parameter="yearId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Filter_MonthPerYearCalendar" Method="Filter_MonthPerYearCalendar">
+    <Parameter Name="MonthName" Parameter="monthName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MonthArabicName" Parameter="monthArabicName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Year" Parameter="year" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Filter_MonthPerYearCalendarResult">
+      <Column Name="MonthId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Posted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Locked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PostNote" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TransId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaymentTransId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ArabicName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YearId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_EmployeeExecutedHolidays" Method="Filter_EmployeeExecutedHolidays">
+    <Parameter Name="EmployeeName" Parameter="employeeName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Filter_EmployeeExecutedHolidaysResult">
+      <Column Name="Holiday" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HolidayDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ExecutedDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExecutionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HolidayId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_ApplicantList" Method="Filter_ApplicantList">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="datefrom" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="gender" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MaritalStatus" Parameter="maritalStatus" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Filter_ApplicantListResult">
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(153)" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumberOfKids" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BloodId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicationDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MotherName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlaceOfBirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RecordNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RecordPlace" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mohafaza" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Kadaa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicantNumber" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_ApplicantEmployeeJob" Method="Filter_ApplicantEmployeeJob">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobName" Parameter="jobName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobNumber" Parameter="jobNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="DateFrom" Parameter="dateFrom" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="DateTo" Parameter="dateTo" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="DepId" Parameter="depId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DepartmentName" Parameter="departmentName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Nationality" Parameter="nationality" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="PIN" Parameter="pIN" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Filter_ApplicantEmployeeJobResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BatchNumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(153)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JobNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="EmployeeId1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="traineeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Attachmment" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" />
+      <Column Name="AttachmentType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PIN" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mohafaza" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Kadaa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_ApplicantIndex" Method="Filter_ApplicantIndex">
+    <Parameter Name="ApplicantNumber" Parameter="applicantNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="FullName" Parameter="fullName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MaritalStatus" Parameter="maritalStatus" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Nationality" Parameter="nationality" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Mobile" Parameter="mobile" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Major" Parameter="major" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="university" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CertificateId" Parameter="certificateId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="City" Parameter="city" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="District" Parameter="district" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ageDate" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="Filter_ApplicantIndexResult">
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(153)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApplicantNumber" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Column Name="StatusName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Major" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="University" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CertificateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CertificateName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[City\Town]" Member="City_Town" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="District" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Filter_ListOfPAforTrainee" Method="Filter_ListOfPAforTrainee">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="FromDate" Parameter="fromDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ToDate" Parameter="toDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="gender" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MaritalStatus" Parameter="maritalStatus" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="AgeDate" Parameter="ageDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="ApplicantNumber" Parameter="applicantNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Nationality" Parameter="nationality" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Province" Parameter="province" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="District" Parameter="district" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="country" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="DepName" Parameter="depName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Filter_ListOfPAforTraineeResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicantId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(152)" CanBeNull="true" />
+      <Column Name="ApplicantNumber" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mohafaza" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Kadaa" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

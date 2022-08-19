@@ -1,0 +1,2676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19AC9A30-AD5D-458E-9E48-28CDC3E963D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HR.My.MyApplication</StartupObject>
+    <RootNamespace>HR</RootNamespace>
+    <AssemblyName>HR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>D:\Sandra_Setups\hr\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\pacsserver\Integra\HR\HR\</InstallUrl>
+    <MinimumRequiredVersion>1.0.0.20</MinimumRequiredVersion>
+    <ApplicationRevision>43</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3474C7BC00F2A179AEB0337D96F52BBD689718E3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HR_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hricon2_bZh_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EMail.NET">
+      <HintPath>..\..\EMail.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Documents.IO.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Shared.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.DataVisualization.Barcode.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.DataVisualization.Shared.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.Portable.Core.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.SupportDialogs.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinDock.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.2\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinDock.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Infragistics\2019.2\Windows Forms\CLR4.0\Bin\Infragistics4.Win.UltraWinExplorerBar.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinGanttView.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinGrid.WordWriter.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinListView.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Public\Documents\Infragistics\2019.2\Windows Forms\Samples\Extensions\Infragistics.Extensions.WinForms\bin\Infragistics4.Win.UltraWinListView.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinRadialMenu.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.UltraWinTree.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Limilabs.Client" />
+    <Import Include="Limilabs.Client.Authentication" />
+    <Import Include="Limilabs.Client.Authentication.Google" />
+    <Import Include="Limilabs.Client.Authentication.Outlook" />
+    <Import Include="Limilabs.Client.DNS" />
+    <Import Include="Limilabs.Client.IMAP" />
+    <Import Include="Limilabs.Client.POP3" />
+    <Import Include="Limilabs.Client.SMTP" />
+    <Import Include="Limilabs.Cryptography" />
+    <Import Include="Limilabs.Infrastructure.Text" />
+    <Import Include="Limilabs.Mail" />
+    <Import Include="Limilabs.Mail.Apple" />
+    <Import Include="Limilabs.Mail.Appointments" />
+    <Import Include="Limilabs.Mail.BinHex" />
+    <Import Include="Limilabs.Mail.BusinessCard" />
+    <Import Include="Limilabs.Mail.DKIM" />
+    <Import Include="Limilabs.Mail.Fluent" />
+    <Import Include="Limilabs.Mail.Headers" />
+    <Import Include="Limilabs.Mail.Licensing" />
+    <Import Include="Limilabs.Mail.MIME" />
+    <Import Include="Limilabs.Mail.MSG" />
+    <Import Include="Limilabs.Mail.PDI" />
+    <Import Include="Limilabs.Mail.Templates" />
+    <Import Include="Limilabs.Mail.Tools" />
+    <Import Include="Limilabs.Mail.Tools.MBox" />
+    <Import Include="Limilabs.Mail.Tools.Spam" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applicant\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmAddAttachment.Designer.vb">
+      <DependentUpon>FrmAddAttachment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmAddAttachment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmAddress.Designer.vb">
+      <DependentUpon>FrmAddress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantInfo.Designer.vb">
+      <DependentUpon>FrmApplicantInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantMedicalIssue.Designer.vb">
+      <DependentUpon>FrmApplicantMedicalIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantMedicalIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantsForCurrentJob.Designer.vb">
+      <DependentUpon>FrmApplicantsForCurrentJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantsForCurrentJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantSkills.Designer.vb">
+      <DependentUpon>FrmApplicantSkills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantSkills.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmAssignAsEmployee.Designer.vb">
+      <DependentUpon>FrmAssignAsEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmAssignAsEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmEducationHistory.Designer.vb">
+      <DependentUpon>FrmEducationHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmEducationHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmEmployeeSalaries2.Designer.vb">
+      <DependentUpon>FrmEmployeeSalaries2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmEmployeeSalaries2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmExperienceHistory.Designer.vb">
+      <DependentUpon>FrmExperienceHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmExperienceHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmFamilyMember.Designer.vb">
+      <DependentUpon>FrmFamilyMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmFamilyMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmLanguages.Designer.vb">
+      <DependentUpon>FrmLanguages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmLanguages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmRelativeReferences.Designer.vb">
+      <DependentUpon>FrmRelativeReferences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmRelativeReferences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmRequiredJob.Designer.vb">
+      <DependentUpon>FrmRequiredJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmRequiredJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmTraineeLectures.Designer.vb">
+      <DependentUpon>FrmTraineeLectures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmTraineeLectures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmWifeHusbandInfo.Designer.vb">
+      <DependentUpon>FrmWifeHusbandInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmWifeHusbandInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmWorkShop.Designer.vb">
+      <DependentUpon>FrmWorkShop.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Applicant\FrmWorkShop.vb">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Applicant\Resources.vb" />
+    <Compile Include="Applicant\UCApplicantInfo.Designer.vb">
+      <DependentUpon>UCApplicantInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\UCApplicantInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Applicant\UCSkills.Designer.vb">
+      <DependentUpon>UCSkills.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\UCSkills.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calendar\Common.vb" />
+    <Compile Include="Calendar\DatabaseSupport.vb" />
+    <Compile Include="Calendar\FrmCalendarOfEventsNAppointments.Designer.vb">
+      <DependentUpon>FrmCalendarOfEventsNAppointments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\FrmCalendarOfEventsNAppointments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\frmOwner.Designer.vb">
+      <DependentUpon>frmOwner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\frmOwner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\frmQuery.Designer.vb">
+      <DependentUpon>frmQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\frmQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\GetStyleLibrary.vb" />
+    <Compile Include="Configurations\FrmBlood.Designer.vb">
+      <DependentUpon>FrmBlood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmBlood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmCategoryList.Designer.vb">
+      <DependentUpon>FrmCategoryList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmCategoryList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmCertificateList.Designer.vb">
+      <DependentUpon>FrmCertificateList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmCertificateList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmContractType.Designer.vb">
+      <DependentUpon>FrmContractType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmContractType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmCurrencyList.Designer.vb">
+      <DependentUpon>FrmCurrencyList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmCurrencyList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmDepartmentCategory.Designer.vb">
+      <DependentUpon>FrmDepartmentCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmDepartmentCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmDepartmentType.Designer.vb">
+      <DependentUpon>FrmDepartmentType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmDepartmentType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmMonths.Designer.vb">
+      <DependentUpon>FrmMonths.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmMonths.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmSalaryCategories.Designer.vb">
+      <DependentUpon>FrmSalaryCategories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmSalaryCategories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmYearList.Designer.vb">
+      <DependentUpon>FrmYearList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmYearList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacts\FrmContacts.Designer.vb">
+      <DependentUpon>FrmContacts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts\FrmContacts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataClassesEmail.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClassesEmail.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EmailDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmailDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewHome.Designer.vb">
+      <DependentUpon>FormNewHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPanel3.Designer.vb">
+      <DependentUpon>FormPanel3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPanel3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCUnEmployeeInfo.Designer.vb">
+      <DependentUpon>FrmUCUnEmployeeInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCUnEmployeeInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUnEmployeeList.Designer.vb">
+      <DependentUpon>FrmUnEmployeeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUnEmployeeList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Header\HeaderForm.Designer.vb">
+      <DependentUpon>HeaderForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\HeaderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Header\Human Resourse Management System.Designer.vb">
+      <DependentUpon>Human Resourse Management System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\Human Resourse Management System.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Header\UCHeader.Designer.vb">
+      <DependentUpon>UCHeader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCHeader.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCHomeNav.Designer.vb">
+      <DependentUpon>UCHomeNav.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCHomeNav.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home Page\Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\FrmPanels.Designer.vb">
+      <DependentUpon>FrmPanels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\FrmPanels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LqHRMS.vb">
+      <DependentUpon>LqHRMS.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Notes\DataSetNotes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetNotes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\FrmNewNote.Designer.vb">
+      <DependentUpon>FrmNewNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\FrmNewNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\FrmNotes.Designer.vb">
+      <DependentUpon>FrmNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\FrmNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\FrmNotesList.Designer.vb">
+      <DependentUpon>FrmNotesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\FrmNotesList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\linqNotes.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>linqNotes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\UserNote.Designer.vb">
+      <DependentUpon>UserNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\UserNote.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tasks\DataSetGanttTasks.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetGanttTasks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\FrmGantt.Designer.vb">
+      <DependentUpon>FrmGantt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\FrmGantt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\FrmGanttTasks.Designer.vb">
+      <DependentUpon>FrmGanttTasks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\FrmGanttTasks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\FrmNewTasksV3-Final.Designer.vb">
+      <DependentUpon>FrmNewTasksV3-Final.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\FrmNewTasksV3-Final.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar\FrmCalendar.Designer.vb">
+      <DependentUpon>FrmCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar\FrmCalendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobDescription.Designer.vb">
+      <DependentUpon>FrmJobDescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobDescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\FrmPCSettings.Designer.vb">
+      <DependentUpon>FrmPCSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\FrmPCSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notes\FrmStickyNote.Designer.vb">
+      <DependentUpon>FrmStickyNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notes\FrmStickyNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCApplicantInfo.Designer.vb">
+      <DependentUpon>FrmUCApplicantInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCApplicantInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCDepartmentTree.Designer.vb">
+      <DependentUpon>FrmUCDepartmentTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCDepartmentTree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCEmployeeInfo.Designer.vb">
+      <DependentUpon>FrmUCEmployeeInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCEmployeeInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCRetiredInfo.Designer.vb">
+      <DependentUpon>FrmUCRetiredInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCRetiredInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUCTraineeInfo.Designer.vb">
+      <DependentUpon>FrmUCTraineeInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUCTraineeInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Header\HeaderClassActions.vb" />
+    <Compile Include="Header\PublicColorConfiguration.vb" />
+    <Compile Include="Header\UCButton.Designer.vb">
+      <DependentUpon>UCButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCHeader2.Designer.vb">
+      <DependentUpon>UCHeader2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCHeader2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCHeaderButton.Designer.vb">
+      <DependentUpon>UCHeaderButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCHeaderButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCHeaderTop.Designer.vb">
+      <DependentUpon>UCHeaderTop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCHeaderTop.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCMyButton.Designer.vb">
+      <DependentUpon>UCMyButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCMyButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCPanelOfRibon.Designer.vb">
+      <DependentUpon>UCPanelOfRibon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCPanelOfRibon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Header\UCRibon.Designer.vb">
+      <DependentUpon>UCRibon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Header\UCRibon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home Page\FrmDockable.Designer.vb">
+      <DependentUpon>FrmDockable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\FrmDockable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page\UcCalendar.Designer.vb">
+      <DependentUpon>UcCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\UcCalendar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home Page\UcMail.Designer.vb">
+      <DependentUpon>UcMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\UcMail.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home Page\UcNotes.Designer.vb">
+      <DependentUpon>UcNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\UcNotes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home Page\UcTasks.Designer.vb">
+      <DependentUpon>UcTasks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page\UcTasks.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mail\ConnectionStatus.vb" />
+    <Compile Include="Mail\FrmComposeMail.Designer.vb">
+      <DependentUpon>FrmComposeMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\FrmComposeMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\FrmMail.Designer.vb">
+      <DependentUpon>FrmMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\FrmMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\FrmOtherMail.Designer.vb">
+      <DependentUpon>FrmOtherMail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\FrmOtherMail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\FrmSignInAccount.Designer.vb">
+      <DependentUpon>FrmSignInAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\FrmSignInAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\IMAPStatus.vb" />
+    <Compile Include="Mail\InputTextBox.Designer.vb">
+      <DependentUpon>InputTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\InputTextBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\MailAccount.vb" />
+    <Compile Include="Mail\MailboxComparer.vb" />
+    <Compile Include="Mail\MyXmlSerializer22.vb" />
+    <Compile Include="Mail\SelForm.Designer.vb">
+      <DependentUpon>SelForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\SelForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\ShowMessage.Designer.vb">
+      <DependentUpon>ShowMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ShowMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\ShowMessagePOP.Designer.vb">
+      <DependentUpon>ShowMessagePOP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ShowMessagePOP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\ShowSetFlags.Designer.vb">
+      <DependentUpon>ShowSetFlags.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\ShowSetFlags.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mail\SimpleLogger.vb" />
+    <Compile Include="Module11.vb" />
+    <Compile Include="Module2.vb" />
+    <Compile Include="modulePublicMainForm.vb" />
+    <Compile Include="Tasks\MyXmlSerializer.vb" />
+    <Compile Include="PA\FrmAveragePAPerJobPerTask.Designer.vb">
+      <DependentUpon>FrmAveragePAPerJobPerTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmAveragePAPerJobPerTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeList.Designer.vb">
+      <DependentUpon>FrmEmployeeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA\FrmEmployeePA.Designer.vb">
+      <DependentUpon>FrmEmployeePA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmEmployeePA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA\FrmPAForEmployee.Designer.vb">
+      <DependentUpon>FrmPAForEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmPAForEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowAttachment.Designer.vb">
+      <DependentUpon>frmShowAttachment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowAttachment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\FrmApplicantIndexReport.Designer.vb">
+      <DependentUpon>FrmApplicantIndexReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\FrmApplicantIndexReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\frmEmployeeListReport.Designer.vb">
+      <DependentUpon>frmEmployeeListReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\frmEmployeeListReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\FrmTraineeListReport.Designer.vb">
+      <DependentUpon>FrmTraineeListReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\FrmTraineeListReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resource1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmAddClassification.Designer.vb">
+      <DependentUpon>FrmAddClassification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmAddClassification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmAddDegree.Designer.vb">
+      <DependentUpon>FrmAddDegree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmAddDegree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmClassificationDegreeTree.Designer.vb">
+      <DependentUpon>frmClassificationDegreeTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmClassificationDegreeTree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\frmEmployeeSalaryList.Designer.vb">
+      <DependentUpon>frmEmployeeSalaryList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\frmEmployeeSalaryList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmMonthSalary.Designer.vb">
+      <DependentUpon>FrmMonthSalary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmMonthSalary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmYearCalendarForSalaries.Designer.vb">
+      <DependentUpon>FrmYearCalendarForSalaries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmYearCalendarForSalaries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SentEmailDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SentEmailDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA\FrmListofPAforTrainee.Designer.vb">
+      <DependentUpon>FrmListofPAforTrainee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmListofPAforTrainee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA\FrmPAforTrainee.Designer.vb">
+      <DependentUpon>FrmPAforTrainee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmPAforTrainee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA\FrmTraineePerformanceAppraisal.Designer.vb">
+      <DependentUpon>FrmTraineePerformanceAppraisal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA\FrmTraineePerformanceAppraisal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmJobCategory.Designer.vb">
+      <DependentUpon>FrmJobCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmJobCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmLecturesList.Designer.vb">
+      <DependentUpon>FrmLecturesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmLecturesList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmMedicalIssuesList.Designer.vb">
+      <DependentUpon>FrmMedicalIssuesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmMedicalIssuesList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmMotivationPunishmentType.Designer.vb">
+      <DependentUpon>FrmMotivationPunishmentType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmMotivationPunishmentType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmPositionList.Designer.vb">
+      <DependentUpon>FrmPositionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmPositionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmSkillsList.Designer.vb">
+      <DependentUpon>FrmSkillsList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmSkillsList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmStatusList.Designer.vb">
+      <DependentUpon>FrmStatusList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmStatusList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmTask.Designer.vb">
+      <DependentUpon>FrmTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmType.Designer.vb">
+      <DependentUpon>FrmType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmAddDepartment.Designer.vb">
+      <DependentUpon>FrmAddDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmAddDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantIndex.Designer.vb">
+      <DependentUpon>FrmApplicantIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantList.Designer.vb">
+      <DependentUpon>FrmApplicantList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant\FrmApplicantList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssigndDepsToJob.Designer.vb">
+      <DependentUpon>FrmAssigndDepsToJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssigndDepsToJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmCompanyProfil.Designer.vb">
+      <DependentUpon>FrmCompanyProfil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmCompanyProfil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartmentTree.Designer.vb">
+      <DependentUpon>FrmDepartmentTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartmentTree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHomePage.Designer.vb">
+      <DependentUpon>FrmHomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\TaskDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TaskDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\TodoItem.vb" />
+    <Compile Include="UCDepartmentTree2.Designer.vb">
+      <DependentUpon>UCDepartmentTree2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCDepartmentTree2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCInterfaceClock.Designer.vb">
+      <DependentUpon>UCInterfaceClock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCInterfaceClock.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vacation\frmAfterAssignYearlyVacToEmployee.Designer.vb">
+      <DependentUpon>frmAfterAssignYearlyVacToEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\frmAfterAssignYearlyVacToEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmEmployeeHolidays.Designer.vb">
+      <DependentUpon>FrmEmployeeHolidays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmEmployeeHolidays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmEmployeeVacation.Designer.vb">
+      <DependentUpon>FrmEmployeeVacation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmEmployeeVacation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmExecuteDaysFromVacation.Designer.vb">
+      <DependentUpon>FrmExecuteDaysFromVacation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmExecuteDaysFromVacation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmExecuteDaysFromVacationList.Designer.vb">
+      <DependentUpon>FrmExecuteDaysFromVacationList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmExecuteDaysFromVacationList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmHolidays.Designer.vb">
+      <DependentUpon>FrmHolidays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmHolidays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmHolidaysExecuted.Designer.vb">
+      <DependentUpon>FrmHolidaysExecuted.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmHolidaysExecuted.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmLeavePermApproval.Designer.vb">
+      <DependentUpon>FrmLeavePermApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmLeavePermApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMotivationPunishment.Designer.vb">
+      <DependentUpon>FrmMotivationPunishment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMotivationPunishment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmReqHoursForJob.Designer.vb">
+      <DependentUpon>FrmReqHoursForJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmReqHoursForJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations\FrmRequirement.Designer.vb">
+      <DependentUpon>FrmRequirement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations\FrmRequirement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\FrmSettings.Designer.vb">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\FrmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LqHRMS.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LqHRMS.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="mdlSettings.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UCDepartmentTree.Designer.vb">
+      <DependentUpon>UCDepartmentTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCDepartmentTree.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCEmployeeList.Designer.vb">
+      <DependentUpon>UCEmployeeList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCEmployeeList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmLeavePermission.Designer.vb">
+      <DependentUpon>FrmLeavePermission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmLeavePermission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmUserList.Designer.vb">
+      <DependentUpon>FrmUserList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmUserList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmVacations.Designer.vb">
+      <DependentUpon>FrmVacations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmVacations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmVactionsHolidaysDashBoard.Designer.vb">
+      <DependentUpon>FrmVactionsHolidaysDashBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmVactionsHolidaysDashBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacation\FrmYearlyVacations.Designer.vb">
+      <DependentUpon>FrmYearlyVacations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacation\FrmYearlyVacations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Applicant\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmAddAttachment.resx">
+      <DependentUpon>FrmAddAttachment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmAddress.resx">
+      <DependentUpon>FrmAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmApplicantInfo.resx">
+      <DependentUpon>FrmApplicantInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmApplicantMedicalIssue.resx">
+      <DependentUpon>FrmApplicantMedicalIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmApplicantsForCurrentJob.resx">
+      <DependentUpon>FrmApplicantsForCurrentJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmApplicantSkills.resx">
+      <DependentUpon>FrmApplicantSkills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmAssignAsEmployee.resx">
+      <DependentUpon>FrmAssignAsEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmEducationHistory.resx">
+      <DependentUpon>FrmEducationHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmEmployeeSalaries2.resx">
+      <DependentUpon>FrmEmployeeSalaries2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmExperienceHistory.resx">
+      <DependentUpon>FrmExperienceHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmFamilyMember.resx">
+      <DependentUpon>FrmFamilyMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmLanguages.resx">
+      <DependentUpon>FrmLanguages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmRelativeReferences.resx">
+      <DependentUpon>FrmRelativeReferences.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmRequiredJob.resx">
+      <DependentUpon>FrmRequiredJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmTraineeLectures.resx">
+      <DependentUpon>FrmTraineeLectures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmWifeHusbandInfo.resx">
+      <DependentUpon>FrmWifeHusbandInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmWorkShop.resx">
+      <DependentUpon>FrmWorkShop.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\UCApplicantInfo.resx">
+      <DependentUpon>UCApplicantInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\UCSkills.resx">
+      <DependentUpon>UCSkills.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\FrmCalendarOfEventsNAppointments.resx">
+      <DependentUpon>FrmCalendarOfEventsNAppointments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\frmOwner.resx">
+      <DependentUpon>frmOwner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\frmQuery.resx">
+      <DependentUpon>frmQuery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmBlood.resx">
+      <DependentUpon>FrmBlood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmCategoryList.resx">
+      <DependentUpon>FrmCategoryList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmCertificateList.resx">
+      <DependentUpon>FrmCertificateList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmContractType.resx">
+      <DependentUpon>FrmContractType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmCurrencyList.resx">
+      <DependentUpon>FrmCurrencyList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmDepartmentCategory.resx">
+      <DependentUpon>FrmDepartmentCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmDepartmentType.resx">
+      <DependentUpon>FrmDepartmentType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmMonths.resx">
+      <DependentUpon>FrmMonths.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmSalaryCategories.resx">
+      <DependentUpon>FrmSalaryCategories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmYearList.resx">
+      <DependentUpon>FrmYearList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacts\FrmContacts.resx">
+      <DependentUpon>FrmContacts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewHome.resx">
+      <DependentUpon>FormNewHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPanel3.resx">
+      <DependentUpon>FormPanel3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCUnEmployeeInfo.resx">
+      <DependentUpon>FrmUCUnEmployeeInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUnEmployeeList.resx">
+      <DependentUpon>FrmUnEmployeeList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\HeaderForm.resx">
+      <DependentUpon>HeaderForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\Human Resourse Management System.resx">
+      <DependentUpon>Human Resourse Management System.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCHeader.resx">
+      <DependentUpon>UCHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCHomeNav.resx">
+      <DependentUpon>UCHomeNav.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\FrmPanels.resx">
+      <DependentUpon>FrmPanels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="Notes\Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\FrmNewNote.resx">
+      <DependentUpon>FrmNewNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\FrmNotes.resx">
+      <DependentUpon>FrmNotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\FrmNotesList.resx">
+      <DependentUpon>FrmNotesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\UserNote.resx">
+      <DependentUpon>UserNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\FrmGantt.resx">
+      <DependentUpon>FrmGantt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\FrmGanttTasks.resx">
+      <DependentUpon>FrmGanttTasks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\FrmNewTasksV3-Final.resx">
+      <DependentUpon>FrmNewTasksV3-Final.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\FrmCalendar.resx">
+      <DependentUpon>FrmCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobDescription.resx">
+      <DependentUpon>FrmJobDescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\FrmPCSettings.resx">
+      <DependentUpon>FrmPCSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes\FrmStickyNote.resx">
+      <DependentUpon>FrmStickyNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCApplicantInfo.resx">
+      <DependentUpon>FrmUCApplicantInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCDepartmentTree.resx">
+      <DependentUpon>FrmUCDepartmentTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCEmployeeInfo.resx">
+      <DependentUpon>FrmUCEmployeeInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCRetiredInfo.resx">
+      <DependentUpon>FrmUCRetiredInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUCTraineeInfo.resx">
+      <DependentUpon>FrmUCTraineeInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCButton.resx">
+      <DependentUpon>UCButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCHeader2.resx">
+      <DependentUpon>UCHeader2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCHeaderButton.resx">
+      <DependentUpon>UCHeaderButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCHeaderTop.resx">
+      <DependentUpon>UCHeaderTop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCMyButton.resx">
+      <DependentUpon>UCMyButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCPanelOfRibon.resx">
+      <DependentUpon>UCPanelOfRibon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Header\UCRibon.resx">
+      <DependentUpon>UCRibon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\FrmDockable.resx">
+      <DependentUpon>FrmDockable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\UcCalendar.resx">
+      <DependentUpon>UcCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\UcMail.resx">
+      <DependentUpon>UcMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\UcNotes.resx">
+      <DependentUpon>UcNotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page\UcTasks.resx">
+      <DependentUpon>UcTasks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\FrmComposeMail.resx">
+      <DependentUpon>FrmComposeMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\FrmMail.resx">
+      <DependentUpon>FrmMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\FrmOtherMail.resx">
+      <DependentUpon>FrmOtherMail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\FrmSignInAccount.resx">
+      <DependentUpon>FrmSignInAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\InputTextBox.resx">
+      <DependentUpon>InputTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\SelForm.resx">
+      <DependentUpon>SelForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ShowMessage.resx">
+      <DependentUpon>ShowMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ShowMessagePOP.resx">
+      <DependentUpon>ShowMessagePOP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mail\ShowSetFlags.resx">
+      <DependentUpon>ShowSetFlags.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmAveragePAPerJobPerTask.resx">
+      <DependentUpon>FrmAveragePAPerJobPerTask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeList.resx">
+      <DependentUpon>FrmEmployeeList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmEmployeePA.resx">
+      <DependentUpon>FrmEmployeePA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmPAForEmployee.resx">
+      <DependentUpon>FrmPAForEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowAttachment.resx">
+      <DependentUpon>frmShowAttachment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\FrmApplicantIndexReport.resx">
+      <DependentUpon>FrmApplicantIndexReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\frmEmployeeListReport.resx">
+      <DependentUpon>frmEmployeeListReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\FrmTraineeListReport.resx">
+      <DependentUpon>FrmTraineeListReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Rdlc\ApplicantIndex.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Rdlc\TraineeList.rdlc" />
+    <EmbeddedResource Include="Reports\Rdlc\EmployeeList.rdlc" />
+    <EmbeddedResource Include="Resource1.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmAddClassification.resx">
+      <DependentUpon>FrmAddClassification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmAddDegree.resx">
+      <DependentUpon>FrmAddDegree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmClassificationDegreeTree.resx">
+      <DependentUpon>frmClassificationDegreeTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\frmEmployeeSalaryList.resx">
+      <DependentUpon>frmEmployeeSalaryList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmMonthSalary.resx">
+      <DependentUpon>FrmMonthSalary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmYearCalendarForSalaries.resx">
+      <DependentUpon>FrmYearCalendarForSalaries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmListofPAforTrainee.resx">
+      <DependentUpon>FrmListofPAforTrainee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmPAforTrainee.resx">
+      <DependentUpon>FrmPAforTrainee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA\FrmTraineePerformanceAppraisal.resx">
+      <DependentUpon>FrmTraineePerformanceAppraisal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmJobCategory.resx">
+      <DependentUpon>FrmJobCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmLecturesList.resx">
+      <DependentUpon>FrmLecturesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmMedicalIssuesList.resx">
+      <DependentUpon>FrmMedicalIssuesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmMotivationPunishmentType.resx">
+      <DependentUpon>FrmMotivationPunishmentType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmPositionList.resx">
+      <DependentUpon>FrmPositionList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmSkillsList.resx">
+      <DependentUpon>FrmSkillsList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmStatusList.resx">
+      <DependentUpon>FrmStatusList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmTask.resx">
+      <DependentUpon>FrmTask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmType.resx">
+      <DependentUpon>FrmType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmAddDepartment.resx">
+      <DependentUpon>FrmAddDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applicant\FrmApplicantIndex.resx">
+      <DependentUpon>FrmApplicantIndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssigndDepsToJob.resx">
+      <DependentUpon>FrmAssigndDepsToJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmCompanyProfil.resx">
+      <DependentUpon>FrmCompanyProfil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepartmentTree.resx">
+      <DependentUpon>FrmDepartmentTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDepartmentTree2.resx">
+      <DependentUpon>UCDepartmentTree2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCInterfaceClock.resx">
+      <DependentUpon>UCInterfaceClock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\frmAfterAssignYearlyVacToEmployee.resx">
+      <DependentUpon>frmAfterAssignYearlyVacToEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmEmployeeHolidays.resx">
+      <DependentUpon>FrmEmployeeHolidays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmEmployeeVacation.resx">
+      <DependentUpon>FrmEmployeeVacation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmExecuteDaysFromVacation.resx">
+      <DependentUpon>FrmExecuteDaysFromVacation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmExecuteDaysFromVacationList.resx">
+      <DependentUpon>FrmExecuteDaysFromVacationList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmHolidays.resx">
+      <DependentUpon>FrmHolidays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmHolidaysExecuted.resx">
+      <DependentUpon>FrmHolidaysExecuted.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmLeavePermApproval.resx">
+      <DependentUpon>FrmLeavePermApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMotivationPunishment.resx">
+      <DependentUpon>FrmMotivationPunishment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmReqHoursForJob.resx">
+      <DependentUpon>FrmReqHoursForJob.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations\FrmRequirement.resx">
+      <DependentUpon>FrmRequirement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\FrmSettings.resx">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDepartmentTree.resx">
+      <DependentUpon>UCDepartmentTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCEmployeeList.resx">
+      <DependentUpon>UCEmployeeList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmLeavePermission.resx">
+      <DependentUpon>FrmLeavePermission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmUserList.resx">
+      <DependentUpon>FrmUserList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmVacations.resx">
+      <DependentUpon>FrmVacations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmVactionsHolidaysDashBoard.resx">
+      <DependentUpon>FrmVactionsHolidaysDashBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacation\FrmYearlyVacations.resx">
+      <DependentUpon>FrmYearlyVacations.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClassesEmail.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClassesEmail.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClassesEmail.dbml.layout">
+      <DependentUpon>DataClassesEmail.dbml</DependentUpon>
+    </None>
+    <None Include="EmailDataSet.xsc">
+      <DependentUpon>EmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EmailDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmailDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EmailDataSet.xss">
+      <DependentUpon>EmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HR_TemporaryKey.pfx" />
+    <None Include="LqHRMS.dbml.layout">
+      <DependentUpon>LqHRMS.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Applicant\FrmApplicantList.resx">
+      <DependentUpon>FrmApplicantList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHomePage.resx">
+      <DependentUpon>FrmHomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="My Project\DataSources\Filter_ApplicantListResult.datasource" />
+    <None Include="My Project\DataSources\Filter_EmployeeExecutedHolidaysResult.datasource" />
+    <None Include="My Project\DataSources\LqHRDataContext.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeSalary2.datasource" />
+    <None Include="My Project\DataSources\TblSalaryCategory.datasource" />
+    <None Include="My Project\DataSources\TblTrainee.datasource" />
+    <None Include="My Project\DataSources\TblUnit.datasource" />
+    <None Include="My Project\DataSources\TblUser.datasource" />
+    <None Include="Notes\DataSetNotes.xsc">
+      <DependentUpon>DataSetNotes.xsd</DependentUpon>
+    </None>
+    <None Include="Notes\DataSetNotes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetNotes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Notes\DataSetNotes.xss">
+      <DependentUpon>DataSetNotes.xsd</DependentUpon>
+    </None>
+    <None Include="Notes\linqNotes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>linqNotes.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Notes\linqNotes.dbml.layout">
+      <DependentUpon>linqNotes.dbml</DependentUpon>
+    </None>
+    <None Include="SentEmailDataSet.xsc">
+      <DependentUpon>SentEmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SentEmailDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SentEmailDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SentEmailDataSet.xss">
+      <DependentUpon>SentEmailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Tasks\DataSetGanttTasks.xsc">
+      <DependentUpon>DataSetGanttTasks.xsd</DependentUpon>
+    </None>
+    <None Include="Tasks\DataSetGanttTasks.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetGanttTasks.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Tasks\DataSetGanttTasks.xss">
+      <DependentUpon>DataSetGanttTasks.xsd</DependentUpon>
+    </None>
+    <None Include="Tasks\TaskDataSet.xsc">
+      <DependentUpon>TaskDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Tasks\TaskDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TaskDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Tasks\TaskDataSet.xss">
+      <DependentUpon>TaskDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LqHRMS.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LqHRMS.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\AssignYearlyVacationsToEmployeeResult.datasource" />
+    <None Include="My Project\DataSources\AveragePAPerTaskForEmployeeResult.datasource" />
+    <None Include="My Project\DataSources\Filter_ApplicantEmployeeJobResult.datasource" />
+    <None Include="My Project\DataSources\Filter_ApplicantIndexResult.datasource" />
+    <None Include="My Project\DataSources\Filter_EmployeeJobSalaryDetailsResult.datasource" />
+    <None Include="My Project\DataSources\Filter_ListOfPAforTraineeResult.datasource" />
+    <None Include="My Project\DataSources\Filter_MonthPerYearCalendarResult.datasource" />
+    <None Include="My Project\DataSources\FrmEmployeePA.datasource" />
+    <None Include="My Project\DataSources\FrmJobDescription.datasource" />
+    <None Include="My Project\DataSources\FrmVacations.datasource" />
+    <None Include="My Project\DataSources\HR.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\HR.My.MyResources.datasource" />
+    <None Include="My Project\DataSources\HR.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\TblAnnualVacation.datasource" />
+    <None Include="My Project\DataSources\TblAttachment.datasource" />
+    <None Include="My Project\DataSources\TblAveragePAPerTask.datasource" />
+    <None Include="My Project\DataSources\TblCategory.datasource" />
+    <None Include="My Project\DataSources\TblCertificate.datasource" />
+    <None Include="My Project\DataSources\TblClassification.datasource" />
+    <None Include="My Project\DataSources\TblCompanyProfile.datasource" />
+    <None Include="My Project\DataSources\TblContractType.datasource" />
+    <None Include="My Project\DataSources\TblCurrency.datasource" />
+    <None Include="My Project\DataSources\TblDegree.datasource" />
+    <None Include="My Project\DataSources\TblDepartment.datasource" />
+    <None Include="My Project\DataSources\TblDepartmentType.datasource" />
+    <None Include="My Project\DataSources\TblEmployee.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeAnnualVacation.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeHoliday.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeJob.datasource" />
+    <None Include="My Project\DataSources\TblEmployeePA.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeSalary.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeSalaryHistory.datasource" />
+    <None Include="My Project\DataSources\TblEmployeeVacation.datasource" />
+    <None Include="My Project\DataSources\TblExecuteDateFromVacation.datasource" />
+    <None Include="My Project\DataSources\TblExecuteVacationsDay.datasource" />
+    <None Include="My Project\DataSources\TblFamilyMember.datasource" />
+    <None Include="My Project\DataSources\TblHoliday.datasource" />
+    <None Include="My Project\DataSources\TblJobDescription.datasource" />
+    <None Include="My Project\DataSources\TblLeavePermission.datasource" />
+    <None Include="My Project\DataSources\TblLecture.datasource" />
+    <None Include="My Project\DataSources\TblMailAttachment.datasource" />
+    <None Include="My Project\DataSources\TblMonth.datasource" />
+    <None Include="My Project\DataSources\TblMonthsPerYear.datasource" />
+    <None Include="My Project\DataSources\TblMotivationPunishment.datasource" />
+    <None Include="My Project\DataSources\TblMotivationPunishmentType.datasource" />
+    <None Include="My Project\DataSources\TblPAForEmployee.datasource" />
+    <None Include="My Project\DataSources\TblPAForTraineer.datasource" />
+    <None Include="My Project\DataSources\TblPAPerJob.datasource" />
+    <None Include="My Project\DataSources\TblPosition.datasource" />
+    <None Include="My Project\DataSources\TblRfc822Message.datasource" />
+    <None Include="My Project\DataSources\TblSetting.datasource" />
+    <None Include="My Project\DataSources\TblStatus.datasource" />
+    <None Include="My Project\DataSources\TblTask.datasource" />
+    <None Include="My Project\DataSources\TblTraineeLecture.datasource" />
+    <None Include="My Project\DataSources\TblTraineePerformanceAppraisal.datasource" />
+    <None Include="My Project\DataSources\TblVacation.datasource" />
+    <None Include="My Project\DataSources\TblVacationsOfEmployee.datasource" />
+    <None Include="My Project\DataSources\TblVacationType.datasource" />
+    <None Include="My Project\DataSources\TblYear.datasource" />
+    <None Include="My Project\DataSources\TblYearlyVacation.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddEmp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-arrow-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-arrow-down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle-arrow-down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_upload - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log out1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-user %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_paper_2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_paper_2-5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rubbish-bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5877 [Converted].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-individual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_01_PersonalAccident_zps7847e25a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paid-time-off-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditEmployee1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnEmployeeListNEW.png" />
+    <None Include="Resources\UnEmployeeNEW.png" />
+    <None Include="Resources\TaskDialogNotes.png" />
+    <None Include="Resources\TaskDialog.png" />
+    <None Include="Resources\UnopenedMail.ico" />
+    <None Include="Resources\Tasks.ICO" />
+    <None Include="Resources\trash-24.png" />
+    <None Include="Resources\tr4.png" />
+    <None Include="Resources\ui.png" />
+    <None Include="Resources\underline.png" />
+    <None Include="Resources\unlock.png" />
+    <None Include="Resources\ViewIcon4.png" />
+    <None Include="Resources\YearsNEW.png" />
+    <None Include="Resources\YearlyCalendarNEW.png" />
+    <None Include="Resources\UsersNEW.png" />
+    <None Include="Resources\YearlyVacationsNEW2.png" />
+    <None Include="Resources\YearlyVacationsNEW.png" />
+    <None Include="Resources\VacationsNEW.png" />
+    <None Include="Resources\VacationHolidaysNEW.png" />
+    <None Include="Resources\TraineePA.png" />
+    <None Include="Resources\TraineeNEW.png" />
+    <None Include="Resources\TraineeListNEW.png" />
+    <None Include="Resources\TaskNEWW.png" />
+    <None Include="Resources\TaskCategoryNEW.png" />
+    <None Include="Resources\Vacation3888.png" />
+    <None Include="Resources\VacationIcon111.png" />
+    <None Include="Resources\Vacationicon12.png" />
+    <None Include="Resources\TraineeList.png" />
+    <None Include="Resources\Trainee PA.png" />
+    <None Include="Resources\Trainee.png" />
+    <None Include="Resources\Task1.png" />
+    <None Include="Resources\VACATIONIcon1.png" />
+    <None Include="Resources\TRAINEEPAIcon.png" />
+    <None Include="Resources\TRAINEEIcon.png" />
+    <None Include="Resources\APPLICANTIcon.png" />
+    <None Include="Resources\AverageIcon.png" />
+    <None Include="Resources\AdduSERiCON.png" />
+    <Content Include="Calendar\WinScheduleData Create Script.sql" />
+    <Content Include="hricon2_bZh_icon.ico" />
+    <Content Include="hr_logo_Nty_icon.ico" />
+    <None Include="Resources\ApplicantListIcon1.png" />
+    <None Include="Resources\ApplicantIcon1.png" />
+    <None Include="Resources\AddUserIcon1.png" />
+    <None Include="Resources\AddUserIconIcon11.png" />
+    <None Include="Resources\blogging888.png" />
+    <None Include="Resources\add-group8888.png" />
+    <None Include="Resources\BlackPostedIcon.png" />
+    <Content Include="Image1.bmp" />
+    <None Include="Resources\AppIndexNEW.png" />
+    <None Include="Resources\ApplicantNEW.png" />
+    <None Include="Resources\AssignNEW2.png" />
+    <None Include="Resources\AssignVacNEW.png" />
+    <None Include="Resources\ADDNEW.png" />
+    <None Include="Resources\AddIcon4.png" />
+    <None Include="Resources\BackIcon4.png" />
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\AddVacations8.png" />
+    <None Include="Resources\AddHolidays8.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\6.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\8.jpg" />
+    <None Include="Resources\9.png" />
+    <None Include="Resources\10.jpeg" />
+    <None Include="Resources\44.png" />
+    <None Include="Resources\444.png" />
+    <None Include="Resources\AddIcon30px.png" />
+    <None Include="Resources\addred3.png" />
+    <None Include="Resources\back-16.png" />
+    <None Include="Resources\21.jpg" />
+    <None Include="Resources\22.jpg" />
+    <None Include="Resources\0Percent.png" />
+    <None Include="Resources\25Percent.png" />
+    <None Include="Resources\50Percent.png" />
+    <None Include="Resources\75Percent.png" />
+    <None Include="Resources\100Percent.png" />
+    <None Include="Resources\appearance22.Image.png" />
+    <None Include="Resources\appearance22.Image1.png" />
+    <None Include="Resources\bling.png" />
+    <Content Include="Resources\Blood.png" />
+    <None Include="Resources\TaskIcon.png" />
+    <None Include="Resources\VACATIONIcon.png" />
+    <None Include="Resources\BloodIcon.png" />
+    <None Include="Resources\bloodIcon122.png" />
+    <None Include="Resources\Cat2223.png" />
+    <None Include="Resources\BloodNEW.png" />
+    <None Include="Resources\BloodTypesNEWNEW.png" />
+    <None Include="Resources\CancelIcon4.png" />
+    <None Include="Resources\CancelIcon7.png" />
+    <None Include="Resources\bold.png" />
+    <None Include="Resources\bullet-list.png" />
+    <None Include="Resources\calendar-24.png" />
+    <None Include="Resources\Calendar.ICO" />
+    <None Include="Resources\Calendar48.ICO" />
+    <None Include="Resources\button_sparkle.png" />
+    <None Include="Resources\calculator.png" />
+    <Content Include="Resources\CATEGORY DEPARTMENT.png" />
+    <Content Include="Resources\CATEGORY TASK.png" />
+    <None Include="Resources\MedicalIssueIcon.png" />
+    <None Include="Resources\CertificateIcon.png" />
+    <None Include="Resources\CATEGORYTASKiCON.png" />
+    <None Include="Resources\CATEGORYDEPARTMENTIcon.png" />
+    <None Include="Resources\Category-TaskIcon1.png" />
+    <None Include="Resources\Category-DepartmentsIcon11.png" />
+    <Content Include="Resources\Certificate.png" />
+    <None Include="Resources\CertificateIcon145.png" />
+    <None Include="Resources\checked899.png" />
+    <None Include="Resources\CertificateNEW.png" />
+    <None Include="Resources\ClassDegreeNEW.png" />
+    <None Include="Resources\CLOSENEW.png" />
+    <None Include="Resources\Clock500px2.png" />
+    <None Include="Resources\close1.png" />
+    <Content Include="Resources\Company profile.png" />
+    <None Include="Resources\CompanyprofileIcon.png" />
+    <None Include="Resources\companyProfileIcon1.png" />
+    <None Include="Resources\CompanyProfileNEW.png" />
+    <Content Include="Resources\contract.jpg" />
+    <None Include="Resources\contractIcon.jpg" />
+    <None Include="Resources\contractTypeIcon1.png" />
+    <None Include="Resources\ContractTypeNEW.png" />
+    <Content Include="Resources\Currency.png" />
+    <None Include="Resources\DEPARTMENTIcon.png" />
+    <None Include="Resources\CurrencyIcon.png" />
+    <None Include="Resources\Currencyicon22.png" />
+    <None Include="Resources\CurrencyNEW.png" />
+    <None Include="Resources\DashboardNEW.png" />
+    <None Include="Resources\DELETENEW.png" />
+    <None Include="Resources\DELETENEW1.png" />
+    <None Include="Resources\DELETENEW2.png" />
+    <None Include="Resources\DeleteIcon5.png" />
+    <None Include="Resources\DeleteIcon7.png" />
+    <None Include="Resources\DeleteIcon71.png" />
+    <None Include="Resources\Customers48.ICO" />
+    <Content Include="Resources\DEPARTMENT TYPE.png" />
+    <None Include="Resources\DEPARTMENTTYPEiCON.png" />
+    <None Include="Resources\JOBcATiCON.png" />
+    <None Include="Resources\EMPLOYEEIcon.png" />
+    <None Include="Resources\employeeLISTIcon.png" />
+    <None Include="Resources\EMPLOYEEeIcon.png" />
+    <None Include="Resources\JOBDESCICON.png" />
+    <None Include="Resources\JOBDEPARTMENTiCON.png" />
+    <None Include="Resources\HOLIDAYS1Icon.png" />
+    <None Include="Resources\HOLIDAYS2Icon.png" />
+    <None Include="Resources\HR%2520logo.png" />
+    <None Include="Resources\DepartmentTypeIcon1.png" />
+    <None Include="Resources\JobDescription2.png" />
+    <None Include="Resources\EmployeeIcon1.png" />
+    <None Include="Resources\EmployeePAIcon1.png" />
+    <None Include="Resources\JobDescription.png" />
+    <None Include="Resources\JobListIcon1.png" />
+    <None Include="Resources\HolidayIcon1.png" />
+    <None Include="Resources\HolidayIcon11.png" />
+    <None Include="Resources\EmployeePAIcon177.png" />
+    <None Include="Resources\Departments22551.png" />
+    <None Include="Resources\extra18jobbb.png" />
+    <None Include="Resources\extra11app.png" />
+    <None Include="Resources\extra15444.png" />
+    <None Include="Resources\extra7557.png" />
+    <None Include="Resources\extra1088.png" />
+    <None Include="Resources\JobListIcon11.png" />
+    <None Include="Resources\DepartmentsNEW.png" />
+    <None Include="Resources\DepCategoryNEW.png" />
+    <None Include="Resources\DepTypeNEW.png" />
+    <None Include="Resources\HoursForJObNEW.png" />
+    <None Include="Resources\JobCatNEW.png" />
+    <None Include="Resources\EmployeeList.png" />
+    <None Include="Resources\EmployeeNEW.png" />
+    <None Include="Resources\EmployeePANEW.png" />
+    <None Include="Resources\JobDesNEW.png" />
+    <None Include="Resources\JobListNEW.png" />
+    <None Include="Resources\HolidaysNEW.png" />
+    <None Include="Resources\EmployeeListNEW.png" />
+    <None Include="Resources\EDITNEW.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\EditIcon4.png" />
+    <None Include="Resources\DetailsIcon4.png" />
+    <None Include="Resources\ExitIcon7.png" />
+    <None Include="Resources\FirstIcon7.png" />
+    <None Include="Resources\GoPrevIcon7.png" />
+    <None Include="Resources\GoNextIcon7.png" />
+    <None Include="Resources\EditIcon7.png" />
+    <None Include="Resources\GoReportIcon7.png" />
+    <None Include="Resources\ExecuteIcon7.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\dot.png" />
+    <None Include="Resources\hour.png" />
+    <None Include="Resources\edit-tools.png" />
+    <None Include="Resources\font.png" />
+    <None Include="Resources\icons8-trash-50.png" />
+    <None Include="Resources\edred3.png" />
+    <None Include="Resources\edit-24.png" />
+    <None Include="Resources\icons8-alarm-48.png" />
+    <None Include="Resources\icons8-clear-symbol-24.png" />
+    <None Include="Resources\icons8-calendar-100.png" />
+    <None Include="Resources\icons8-menu-vertical-50.png" />
+    <None Include="Resources\icons8-menu-vertical-30.png" />
+    <None Include="Resources\icons8-trash-24.png" />
+    <None Include="Resources\icons8-pencil-30.png" />
+    <None Include="Resources\icons8-plus-math-26.png" />
+    <None Include="Resources\icons8-planner-100.png" />
+    <None Include="Resources\icons8-back-48.png" />
+    <None Include="Resources\icons8-back-481.png" />
+    <None Include="Resources\icons8-save-26.png" />
+    <None Include="Resources\icons8-save-20.png" />
+    <None Include="Resources\folder-24.png" />
+    <None Include="Resources\icons8-less-than-16.png" />
+    <None Include="Resources\icons8-more-than-16.png" />
+    <None Include="Resources\icons8-less-than-24.png" />
+    <None Include="Resources\icons8-more-than-24.png" />
+    <None Include="Resources\icons8-composing-mail-24.png" />
+    <None Include="Resources\icons8-download-mail-24.png" />
+    <None Include="Resources\icons8-upload-mail-24.png" />
+    <None Include="Resources\icons8-calendar-plus-24.png" />
+    <None Include="Resources\icons8-add-list-24.png" />
+    <None Include="Resources\icons8-kackstiftaufpapier-24.png" />
+    <None Include="Resources\icons8-copybook-24.png" />
+    <None Include="Resources\icons8-add-list-241.png" />
+    <None Include="Resources\icons8-create-document-24.png" />
+    <None Include="Resources\icons8-gmail-100.png" />
+    <None Include="Resources\icons8-refresh-mail-26.png" />
+    <None Include="Resources\icons8-gmail-login-24.png" />
+    <None Include="Resources\folderdel.png" />
+    <None Include="Resources\icons8-refresh-64.png" />
+    <None Include="Resources\icons8-thick-arrow-pointing-up-64.png" />
+    <None Include="Resources\icons8-down-arrow-64.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\folder1.png" />
+    <None Include="Resources\folder55.png" />
+    <None Include="Resources\folderdel1.png" />
+    <None Include="Resources\icons8-eye-20.png" />
+    <None Include="Resources\icons8-hide-20.png" />
+    <None Include="Resources\icons8-undo-26.png" />
+    <None Include="Resources\icons8-redo-26.png" />
+    <None Include="Resources\icons8-redo-15.png" />
+    <None Include="Resources\icons8-menu-vertical-24.png" />
+    <None Include="Resources\icons8-text-color-26.png" />
+    <None Include="Resources\icons8-attach-26.png" />
+    <None Include="Resources\icons8-link-26.png" />
+    <None Include="Resources\icons8-happy-26.png" />
+    <None Include="Resources\icons8-full-image-26.png" />
+    <None Include="Resources\icons8-trash-26.png" />
+    <None Include="Resources\icons8-expand-arrow-26.png" />
+    <None Include="Resources\icons8-undo-261.png" />
+    <None Include="Resources\icons8-redo-261.png" />
+    <None Include="Resources\icons8-align-left-26.png" />
+    <None Include="Resources\icons8-align-center-26.png" />
+    <None Include="Resources\icons8-align-right-26.png" />
+    <None Include="Resources\icons8-numbered-list-26.png" />
+    <None Include="Resources\icons8-list-26.png" />
+    <None Include="Resources\icons8-text-color-261.png" />
+    <None Include="Resources\icons8-cursor-30-1.png" />
+    <None Include="Resources\icons8-cursor-64.png" />
+    <None Include="Resources\icons8-cursor-50.png" />
+    <None Include="Resources\icons8-text-color-26-2.png" />
+    <None Include="Resources\icons8-minus-50.png" />
+    <None Include="Resources\icons8-bold-26.png" />
+    <None Include="Resources\icons8-underline-26.png" />
+    <None Include="Resources\icons8-italic-26.png" />
+    <None Include="Resources\icons8-strikethrough-26.png" />
+    <None Include="Resources\icons8-bold-24.png" />
+    <None Include="Resources\icons8-bold-20.png" />
+    <None Include="Resources\icons8-cursor-30.png" />
+    <None Include="Resources\icons8-minus-30.png" />
+    <None Include="Resources\icons8-bold-15.png" />
+    <None Include="Resources\icons8-bold-10.png" />
+    <None Include="Resources\icons8-underline-15.png" />
+    <None Include="Resources\icons8-italic-15.png" />
+    <None Include="Resources\icons8-strikethrough-15.png" />
+    <None Include="Resources\icons8-strikethrough-20.png" />
+    <None Include="Resources\icons8-strikethrough-18.png" />
+    <None Include="Resources\icons8-undo-15.png" />
+    <None Include="Resources\icons8-redo-151.png" />
+    <None Include="Resources\icons8-undo-18.png" />
+    <None Include="Resources\icons8-redo-18.png" />
+    <None Include="Resources\icons8-expand-arrow-15.png" />
+    <None Include="Resources\icons8-align-left-15.png" />
+    <None Include="Resources\icons8-align-center-18.png" />
+    <None Include="Resources\icons8-align-left-18.png" />
+    <None Include="Resources\icons8-align-right-18.png" />
+    <None Include="Resources\icons8-numbered-list-18.png" />
+    <None Include="Resources\icons8-numbered-list-181.png" />
+    <None Include="Resources\icons8-numbered-list-182.png" />
+    <None Include="Resources\icons8-bulleted-list-18.png" />
+    <None Include="Resources\icons8-color-18.png" />
+    <None Include="Resources\icons8-text-color-20.png" />
+    <None Include="Resources\icons8-link-20.png" />
+    <None Include="Resources\icons8-attach-20.png" />
+    <None Include="Resources\icons8-happy-20.png" />
+    <None Include="Resources\icons8-full-image-20.png" />
+    <None Include="Resources\icons8-trash-20.png" />
+    <None Include="Resources\icons8-refresh-mail-48.png" />
+    <None Include="Resources\icons8-refresh-48.png" />
+    <None Include="Resources\icons8-up-48.png" />
+    <None Include="Resources\icons8-down-arrow-48.png" />
+    <None Include="Resources\icons8-delete-20.png" />
+    <None Include="Resources\icons8-download-48.png" />
+    <None Include="Resources\icons8-download-481.png" />
+    <None Include="Resources\icons8-attach-201.png" />
+    <None Include="Resources\flag.png" />
+    <None Include="Resources\icons8-attach-24-1.png" />
+    <None Include="Resources\icons8-attach-24-2.png" />
+    <None Include="Resources\icons8-envelope-30.png" />
+    <None Include="Resources\Employees48.ICO" />
+    <None Include="Resources\diamond_sparkle.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\icons8-save-48.png" />
+    <None Include="Resources\icons8-print-48.png" />
+    <None Include="Resources\icons8-export-32.png" />
+    <None Include="Resources\icons8-add-file-48.png" />
+    <None Include="Resources\icons8-add-file-50.png" />
+    <None Include="Resources\icons8-mail-account-50.png" />
+    <None Include="Resources\icons8-composing-mail-50.png" />
+    <None Include="Resources\icons8-download-mail-50.png" />
+    <None Include="Resources\icons8-secured-letter-50.png" />
+    <None Include="Resources\icons8-subtract-64.png" />
+    <None Include="Resources\icons8-settings-50.png" />
+    <Content Include="Resources\Image1.bmp" />
+    <None Include="Resources\Indent.png" />
+    <Content Include="Resources\job_icon_png_733787.png" />
+    <None Include="Resources\LEAVEiCON11.png" />
+    <None Include="Resources\lecture222.png" />
+    <None Include="Resources\LeaveApprovalNEW.png" />
+    <None Include="Resources\LeaveNEW.png" />
+    <None Include="Resources\LastIcon7.png" />
+    <None Include="Resources\kor1.jpg" />
+    <None Include="Resources\kor2.jpg" />
+    <Content Include="Resources\Lectures.png" />
+    <None Include="Resources\LecturesIcon.png" />
+    <None Include="Resources\LISTIcon.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\ListOFEmployees.png" />
+    <None Include="Resources\Locked.jpg" />
+    <None Include="Resources\LockIcon.png" />
+    <None Include="Resources\LockBlack.jpg" />
+    <None Include="Resources\LecturesNEW.png" />
+    <None Include="Resources\LockIcon7.png" />
+    <None Include="Resources\LockedIcon8.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\Mail-64.png" />
+    <None Include="Resources\mail-24.png" />
+    <None Include="Resources\Mail.jpg" />
+    <None Include="Resources\Mail.bmp" />
+    <None Include="Resources\Mail1.bmp" />
+    <None Include="Resources\many_cells_left.png" />
+    <None Include="Resources\many_cells_right.png" />
+    <Content Include="Resources\Medical issue.png" />
+    <None Include="Resources\MotivationIcon.png" />
+    <None Include="Resources\MotivationType1.png" />
+    <None Include="Resources\medicalissueic1.png" />
+    <None Include="Resources\MedicalIssueNEW.png" />
+    <None Include="Resources\MotivationTypeNEW.png" />
+    <None Include="Resources\MotivVSPunNEW.png" />
+    <None Include="Resources\PAPerTaskNEW.png" />
+    <None Include="Resources\PCsettingsNEW.png" />
+    <None Include="Resources\MonthsNEW.png" />
+    <None Include="Resources\NextIcon4.png" />
+    <None Include="Resources\PAIcon4.png" />
+    <None Include="Resources\NewIcon7.png" />
+    <None Include="Resources\PAIcon7.png" />
+    <None Include="Resources\NEW9.png" />
+    <None Include="Resources\NEWBL9.png" />
+    <None Include="Resources\NEWPUR8.png" />
+    <None Include="Resources\minute.png" />
+    <None Include="Resources\more.png" />
+    <None Include="Resources\menuvertical-24.png" />
+    <None Include="Resources\note-24.png" />
+    <None Include="Resources\next-16.png" />
+    <None Include="Resources\Notes.ICO" />
+    <None Include="Resources\OpenedMail.ico" />
+    <None Include="Resources\Orders48.ICO" />
+    <None Include="Resources\MileStone.png" />
+    <None Include="Resources\one_cell_left.png" />
+    <None Include="Resources\one_cell_right.png" />
+    <None Include="Resources\other_sparkle.png" />
+    <None Include="Resources\Outdent.png" />
+    <Content Include="Resources\PERSONAL VACATION.png" />
+    <None Include="Resources\POSITIONIcon.png" />
+    <None Include="Resources\Settingsicon.png" />
+    <None Include="Resources\REQUIREDHOURSIcon.png" />
+    <None Include="Resources\position.png" />
+    <None Include="Resources\RequiredHoursIcon1.png" />
+    <None Include="Resources\settings88.png" />
+    <None Include="Resources\settings888.png" />
+    <None Include="Resources\settings8899.png" />
+    <None Include="Resources\settings88899.png" />
+    <None Include="Resources\RequiredHoursIcon1888.png" />
+    <None Include="Resources\RetiredEmpIcon3.png" />
+    <None Include="Resources\RetiredEmpList3.png" />
+    <None Include="Resources\Post.jpg" />
+    <None Include="Resources\preview.png" />
+    <None Include="Resources\RequirementTypeNEW.png" />
+    <None Include="Resources\PositionNEW.png" />
+    <None Include="Resources\RetiredEmpNEW.png" />
+    <None Include="Resources\RetiredListNEW.png" />
+    <None Include="Resources\SettingsNEW.png" />
+    <None Include="Resources\SalariesHistoryNEW.png" />
+    <None Include="Resources\SAVENEW.png" />
+    <None Include="Resources\SAVENEW2.png" />
+    <None Include="Resources\SAVENEW3.png" />
+    <None Include="Resources\SAVE4NEW.png" />
+    <None Include="Resources\SAVE4NEW1.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\SaveIcon4.png" />
+    <None Include="Resources\ShowIcon4.png" />
+    <None Include="Resources\SelectIcon4.png" />
+    <None Include="Resources\SaveIcon7.png" />
+    <None Include="Resources\SearchIcon7.png" />
+    <None Include="Resources\PostIcon7.png" />
+    <None Include="Resources\PostIcon8.png" />
+    <None Include="Resources\PrintIcon8.png" />
+    <None Include="Resources\SelectIcon8.png" />
+    <None Include="Resources\PreviousTemplate8.png" />
+    <None Include="Resources\SaveIcon71.png" />
+    <None Include="Resources\SaveIcon72.png" />
+    <None Include="Resources\SaveIcon73.png" />
+    <None Include="Resources\second.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\plus-26.png" />
+    <None Include="Resources\pin-16.png" />
+    <None Include="Resources\Pin-24.png" />
+    <None Include="Resources\seen1.jpg" />
+    <None Include="Resources\seen2.jpg" />
+    <None Include="Resources\question_mark_right.png" />
+    <None Include="Resources\row_left.png" />
+    <None Include="Resources\row_right.png" />
+    <None Include="Resources\Salarycategory.png" />
+    <Content Include="Resources\Skills.png" />
+    <None Include="Resources\SkillsIcon.png" />
+    <None Include="Resources\skills1.png" />
+    <None Include="Resources\status.png" />
+    <None Include="Resources\SkillsNEW.png" />
+    <None Include="Resources\StatusNEW.png" />
+    <None Include="Resources\st2.png" />
+    <None Include="Resources\StickyNoteTheme.png" />
+    <None Include="Resources\st1-removebg-preview.png" />
+    <None Include="Resources\strikethrough.png" />
+    <None Include="Resources\task-24.png" />
+    <None Include="Resources\sort-right-8.png" />
+    <None Include="Resources\sort-down-8.png" />
+    <None Include="Resources\sort-down-8-1.png" />
+    <None Include="Resources\sort-right-8-1.png" />
+    <Content Include="Resources\Task.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Infragistics4.Documents.IO.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Shared.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.DataVisualization.Barcode.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.DataVisualization.Shared.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.Misc.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.Portable.Core.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.SupportDialogs.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinCalcManager.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinCalcManager.v19.2.FormulaBuilder">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinDataSource.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinDock.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinEditors.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinExplorerBar.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinFormattedText.WordWriter.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinGanttView.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinGrid.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinGrid.WordWriter.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinListView.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinPrintPreviewDialog.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinRadialMenu.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinSchedule.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinStatusBar.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinTabControl.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinToolbars.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.UltraWinTree.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics4.Win.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

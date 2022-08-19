@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NotesDB" Class="linqNotesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=NotesDB;Integrated Security=True" SettingsObjectName="HR.My.MySettings" SettingsPropertyName="NotesDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblNotes" Member="tblNotes">
+    <Type Name="tblNote">
+      <Column Name="NoteID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Note" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
