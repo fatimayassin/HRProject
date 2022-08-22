@@ -1796,3 +1796,7 @@ C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug
 C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.application
 C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.FormNewHome.resources
 C:\Users\acer\Desktop\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.UCHeader.resources
+C:\Users\fatima\Desktop\r\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\bin\Debug\HR.exe.config
+C:\Users\fatima\Desktop\r\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.exe
+C:\Users\fatima\Desktop\r\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.xml
+C:\Users\fatima\Desktop\r\HR-27-5-2020\HR-25-5-2020\HR-20-5-2020\HR\HR\obj\x86\Debug\HR.pdb
